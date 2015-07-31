@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="" />
+    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="Initialized Seperate module">
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__org_aspectj_aspectjrt_1_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_aop_1_2_5_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm-query.iml" afterPath="$PROJECT_DIR$/crm-query.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,37 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MainVerticle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongo-config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mongo-config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5483871">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.609319">
+              <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -69,8 +62,54 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/Strings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/MongoCollections.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/Events.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/util/AsyncUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/util/ExceptionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Area.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/AreaCoordinator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Br.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Brand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/BrSupervisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/ConsumerContact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/ConsumerType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/DistributionHouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/EmployeeType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/HeadOffice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Identifiable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Region.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/Town.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/UserIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/model/UserType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/intfs/Callable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/intfs/Runnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/exceptions/ValidationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/codec/ArrayListToJsonArrayCodec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/AreaCoordinatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/AreaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/BrService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/BrSupervisorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/ConsumerContactService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crmquery/service/DbService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/codec/ArrayListToJsonArrayCodec.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" />
       </list>
     </option>
   </component>
@@ -95,7 +134,7 @@
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -189,6 +228,44 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -207,6 +284,47 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -231,6 +349,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -250,6 +384,11 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -338,14 +477,32 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mongo-config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
+        <state vertical-scroll-proportion="0.03195489">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
@@ -353,8 +510,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/codec/ArrayListToJsonArrayCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2437276">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.609319">
+          <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
           <folding />
         </state>
       </provider>
