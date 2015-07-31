@@ -1,0 +1,9 @@
+{
+  "db_name": "crm_db"
+  //  // Credentials / Auth
+  //  "username": "admin",
+  //  // string
+  //  "password": "123",
+  //  // string
+  //  "authSource": "some.db"
+}
