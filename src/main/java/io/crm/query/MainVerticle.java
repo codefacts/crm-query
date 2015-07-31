@@ -147,7 +147,7 @@ public class MainVerticle extends AbstractVerticle {
     private void registerEvents(ConfigurableApplicationContext ctx) {
         final EventBus bus = getVertx().eventBus();
 
-        bus.consumer(Events.GET_DB_TREE, ctx.getBean(DbService.class)::treeWithSummary);
+        bus.consumer(Events.GET_DB_TREE, ctx.getBean(DbTreeService.class)::treeWithSummary);
     }
 
     private String loadConfig() {
