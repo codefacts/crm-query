@@ -59,7 +59,7 @@ public class DbTreeService {
 
     private void onAreaFound(List<JsonObject> areas, Message<JsonObject> message, List<JsonObject> regions, Runnable onAreaTracker, CC areaCount) {
         areas.forEach(area -> {
-            App.mongoClient.find(MongoCollections.distribution_house, new JsonObject().put(DistributionHouse.area, area.getString(Model.id)), event2 -> {
+            App.mongoClient.find(MongoCollections.distribution_house, new JsonObject().put(House.area, area.getString(Model.id)), event2 -> {
                 if (event2.failed()) {
                     ExceptionUtil.fail(message, event2.cause());
                     return;
@@ -126,7 +126,7 @@ public class DbTreeService {
         CC queryCount = new CC(3);
         Touple touple = new Touple();
 
-        App.mongoClient.count(MongoCollections.consumer_contact, new JsonObject().put(ConsumerContact.br, br.getString(Model.id)),
+        App.mongoClient.count(MongoCollections.consumer_contact, new JsonObject().put(Contact.br, br.getString(Model.id)),
                 totalCountResult -> {
                     if (totalCountResult.failed()) {
                         ExceptionUtil.fail(message, totalCountResult.cause());
@@ -139,8 +139,8 @@ public class DbTreeService {
                     }
                 });
 
-        App.mongoClient.count(MongoCollections.consumer_contact, new JsonObject().put(ConsumerContact.br, br.getString(Model.id))
-                .put(ConsumerContact.ptr, true), ptrCountResult -> {
+        App.mongoClient.count(MongoCollections.consumer_contact, new JsonObject().put(Contact.br, br.getString(Model.id))
+                .put(Contact.ptr, true), ptrCountResult -> {
             if (ptrCountResult.failed()) {
                 ExceptionUtil.fail(message, ptrCountResult.cause());
                 return;
@@ -152,8 +152,8 @@ public class DbTreeService {
             }
         });
 
-        App.mongoClient.count(MongoCollections.consumer_contact, new JsonObject().put(ConsumerContact.br, br.getString(Model.id))
-                .put(ConsumerContact.swp, true), swpCountResult -> {
+        App.mongoClient.count(MongoCollections.consumer_contact, new JsonObject().put(Contact.br, br.getString(Model.id))
+                .put(Contact.swp, true), swpCountResult -> {
             if (swpCountResult.failed()) {
                 ExceptionUtil.fail(message, swpCountResult.cause());
                 return;

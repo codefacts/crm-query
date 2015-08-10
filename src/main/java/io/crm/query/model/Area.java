@@ -2,9 +2,6 @@ package io.crm.query.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import java.io.Serializable;
-import java.util.Date;
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Area {
     public static final String name = "name";
