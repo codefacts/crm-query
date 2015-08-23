@@ -1,65 +1,83 @@
 package io.crm.query;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.vertx.core.*;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.mongo.MongoClient;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.core.env.Environment;
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-@SpringBootApplication
+@Component
 public class App {
-    public static EventBus bus;
-    public static Vertx vertx;
-    public static MongoClient mongoClient;
-    public static JsonObject mongoConfig;
-    public static final int collection_count = 15;
+    private EventBus bus;
+    private Vertx vertx;
+    private MongoClient mongoClient;
+    private JsonObject mongoConfig;
+    private ConfigurableApplicationContext context;
 
-    @Autowired
-    Environment env;
+    private static final ThreadLocal<DateFormat> dateFormatThreadLocal = defaultDateFormatThreadLocal();
+    public static volatile Runnable testRun;
 
-    @Bean
-    public Jackson2ObjectMapperBuilder jacksonBuilder() {
-        Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder();
-        builder
-                .indentOutput(true)
-                .dateFormat(new SimpleDateFormat(env.getProperty("spring.jackson.date-format", "yyyy-MMM-dd hh:mm:ss a")))
-                .failOnUnknownProperties(false)
-                .failOnEmptyBeans(false);
-        return builder;
+    public static DateFormat defaultDateFormat() {
+        return dateFormatThreadLocal.get();
     }
 
-    @Bean
-    public ObjectMapper objectMapper(Jackson2ObjectMapperBuilder builder) {
-        return builder.build();
+    public EventBus getBus() {
+        return bus;
     }
 
-    @Bean
-    MappingJackson2HttpMessageConverter jackson2HttpMessageConverter(Jackson2ObjectMapperBuilder jacksonBuilder) {
-        ObjectMapper objectMapper = jacksonBuilder.build();
-        MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter(objectMapper);
-        return converter;
+    public Vertx getVertx() {
+        return vertx;
+    }
+
+    public MongoClient getMongoClient() {
+        return mongoClient;
+    }
+
+    public JsonObject getMongoConfig() {
+        return mongoConfig;
+    }
+
+    public ConfigurableApplicationContext getContext() {
+        return context;
+    }
+
+    void initialize(EventBus bus, Vertx vertx, MongoClient mongoClient, JsonObject mongoConfig, ConfigurableApplicationContext context) {
+        this.bus = bus;
+        this.vertx = vertx;
+        this.mongoClient = mongoClient;
+        this.mongoConfig = mongoConfig;
+        this.context = context;
     }
 
     public static void main(String... args) {
-        Vertx.clusteredVertx(new VertxOptions(new JsonObject()), new Handler<AsyncResult<Vertx>>() {
+        Vertx.clusteredVertx(new VertxOptions(), new Handler<AsyncResult<Vertx>>() {
 
             @Override
             public void handle(AsyncResult<Vertx> e) {
                 if (e.succeeded()) {
                     System.out.println("VERTEX CLUSTER STARTED");
-                    e.result().deployVerticle(new MainVerticle());
+                    e.result().deployVerticle(MainVerticle.class.getName(), new DeploymentOptions()
+                            .setInstances(8));
                 } else {
                     System.out.println("ERROR STARTING VERTEX CLUSTER");
                 }
             }
         });
+    }
+
+    private static ThreadLocal<DateFormat> defaultDateFormatThreadLocal() {
+        return new ThreadLocal<DateFormat>() {
+            @Override
+            protected DateFormat initialValue() {
+                return new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            }
+        };
     }
 }

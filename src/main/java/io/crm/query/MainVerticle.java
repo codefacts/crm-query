@@ -1,45 +1,51 @@
 package io.crm.query;
 
+import io.crm.mc;
 import io.crm.query.codec.ArrayListToJsonArrayCodec;
 import io.crm.query.service.*;
-import io.crm.query.util.AsyncUtil;
+import io.crm.util.AsyncUtil;
 import io.vertx.core.*;
 import io.vertx.core.eventbus.EventBus;
+import io.vertx.core.eventbus.Message;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.mongo.MongoClient;
 import org.apache.commons.io.IOUtils;
-import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+
+import static io.crm.query.Events.*;
 
 /**
  * Created by someone on 08-Jul-2015.
  */
 public class MainVerticle extends AbstractVerticle {
+    private static final String FIND_ALL_USER_TYPES = "FIND_ALL_USER_TYPES";
     private Future<Void> startFuture;
-    private int count = App.collection_count;
+    private int count = mc.values().length;
+    private App app;
 
     @Override
     public void start(Future<Void> startFuture) throws Exception {
         System.out.println("--------------Strating verticle");
         this.startFuture = startFuture;
-        App.vertx = getVertx();
-        App.bus = getVertx().eventBus();
 
-        createAndInitDb(r -> {
-            if (r.failed()) {
-                onFail(r.cause());
-                return;
-            }
+        final JsonObject config = new JsonObject(loadConfig("/mongo-config.json"));
+        final MongoClient mongoClient = MongoClient.createShared(getVertx(), config);
+        final AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("io.crm.query", "io.crm.query.service", "io.crm.query.codec");
+        context.start();
 
-            onDbInialized();
-        });
+        app = context.getBean(App.class);
+        app.initialize(getVertx().eventBus(), getVertx(), mongoClient, config, context);
+
+        onDbInialized();
 
         System.out.println("--------------Verticle complete");
     }
@@ -52,86 +58,8 @@ public class MainVerticle extends AbstractVerticle {
         }
     }
 
-    private void createAndInitDb(AsyncResultHandler<Void> handler) {
-        final JsonObject config = new JsonObject(loadConfig());
-        App.mongoClient = MongoClient.createShared(getVertx(), config);
-        App.mongoConfig = config;
-
-        createCollections(handler);
-    }
-
-    private void createCollections(AsyncResultHandler<Void> handler) {
-        final MongoClient mongoClient = App.mongoClient;
-
-        mongoClient.runCommand("listCollections", new JsonObject().put("listCollections", ""), r -> {
-            if (r.failed()) {
-                handler.handle(AsyncUtil.fail(r.cause()));
-                return;
-            }
-            System.out.println(r.result());
-
-            final JsonArray array = r.result().getJsonObject("cursor").getJsonArray("firstBatch");
-
-            Map<String, JsonObject> map = new HashMap<String, JsonObject>();
-            for (int i = 0; i < array.size(); i++) {
-                map.put(array.getJsonObject(i).getString("name"), null);
-            }
-
-            createCollection(MongoCollections.address, handler, map);
-            createCollection(MongoCollections.admin, handler, map);
-            createCollection(MongoCollections.area, handler, map);
-            createCollection(MongoCollections.area_coordinator, handler, map);
-
-            createCollection(MongoCollections.br, handler, map);
-            createCollection(MongoCollections.brand, handler, map);
-
-            createCollection(MongoCollections.client, handler, map);
-            createCollection(MongoCollections.consumer, handler, map);
-            createCollection(MongoCollections.consumer_contact, handler, map);
-            createCollection(MongoCollections.distribution_house, handler, map);
-
-            createCollection(MongoCollections.head_office, handler, map);
-            createCollection(MongoCollections.employee, handler, map);
-
-            createCollection(MongoCollections.region, handler, map);
-            createCollection(MongoCollections.town, handler, map);
-            createCollection(MongoCollections.user_index, handler, map);
-        });
-    }
-
-    private void createCollection(String collectionName, AsyncResultHandler<Void> handler, Map<String, JsonObject> map) {
-
-        if (map.containsKey(collectionName)) {
-            count--;
-            if (count <= 0) {
-                handler.handle(AsyncUtil.success(null));
-            }
-            return;
-        }
-
-        App.mongoClient.runCommand("create", new JsonObject().put("create", collectionName), r -> {
-            if (r.failed()) {
-                handler.handle(AsyncUtil.fail(r.cause()));
-                return;
-            }
-            count--;
-            if (count <= 0) {
-                handler.handle(AsyncUtil.success(null));
-            }
-        });
-    }
-
     private void onDbInialized() {
-        getVertx().executeBlocking((Future<ConfigurableApplicationContext> future) -> {
-            final ConfigurableApplicationContext context = SpringApplication.run(App.class);
-            future.complete(context);
-        }, r -> {
-            if (r.failed()) {
-                onFail(r.cause());
-                return;
-            }
-            onSpringContextLoaded(r.result());
-        });
+        onSpringContextLoaded(app.getContext());
     }
 
     private void onSpringContextLoaded(final ConfigurableApplicationContext context) {
@@ -141,17 +69,27 @@ public class MainVerticle extends AbstractVerticle {
     }
 
     private void registerCodecs(ConfigurableApplicationContext ctx) {
-        App.bus.registerDefaultCodec(ArrayList.class, ctx.getBean(ArrayListToJsonArrayCodec.class));
     }
 
     private void registerEvents(ConfigurableApplicationContext ctx) {
         final EventBus bus = getVertx().eventBus();
 
-        bus.consumer(Events.GET_DB_TREE, ctx.getBean(DbTreeService.class)::treeWithSummary);
+        bus.consumer(GET_DB_TREE, (Message<JsonObject> m) -> ctx.getBean(DbTreeService.class).treeWithSummary(m));
+        bus.consumer(GET_COLLECTION_COUNT, ctx.getBean(QueryService.class)::count);
+
+        bus.consumer(FIND_ALL_REGIONS, ctx.getBean(QueryService.class)::listRegions);
+        bus.consumer(FIND_ALL_AREAS, ctx.getBean(QueryService.class)::listAreas);
+        bus.consumer(FIND_ALL_HOUSES, ctx.getBean(QueryService.class)::listHouses);
+        bus.consumer(FIND_ALL_BRANDS, ctx.getBean(QueryService.class)::listBrands);
+        bus.consumer(FIND_ALL_LOCATIONS, ctx.getBean(QueryService.class)::listLocations);
+        bus.consumer(FIND_ALL_CLIENTS, ctx.getBean(QueryService.class)::listClients);
+        bus.consumer(FIND_ALL_EMPLOYEES, ctx.getBean(QueryService.class)::listEmployees);
+        bus.consumer(FIND_ALL_CONTACTS, ctx.getBean(QueryService.class)::listContacts);
+        bus.consumer(FIND_ALL_USER_TYPES, ctx.getBean(QueryService.class)::listUserTypes);
     }
 
-    private String loadConfig() {
-        InputStream stream = this.getClass().getResourceAsStream("/mongo-config.json");
+    public static String loadConfig(String file) {
+        InputStream stream = MainVerticle.class.getResourceAsStream(file);
         try {
             String string = IOUtils.toString(stream, "UTF-8");
             return string;
@@ -165,13 +103,12 @@ public class MainVerticle extends AbstractVerticle {
         startFuture.complete();
         startFuture = null;
         System.out.println("<-------------------COMPLETE-------------------->");
+        if (App.testRun != null) App.testRun.run();
     }
 
     @Override
     public void stop() throws Exception {
-        if (App.mongoClient != null) {
-            App.mongoClient.close();
-            App.mongoClient = null;
-        }
+        app.getContext().close();
+        app.getMongoClient().close();
     }
 }

@@ -7,5 +7,8 @@ public class Area {
     public static final String name = "name";
     public static final String region = "region";
     public static final String active = "active";
-    Area() {}
+    public static final String houseCount = "houseCount";
+
+    Area() {
+    }
 }

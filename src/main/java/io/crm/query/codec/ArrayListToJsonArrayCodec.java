@@ -1,7 +1,7 @@
 package io.crm.query.codec;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.crm.query.util.ExceptionUtil;
+import io.crm.util.ExceptionUtil;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.eventbus.MessageCodec;
 import io.vertx.core.json.JsonArray;
