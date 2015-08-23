@@ -1,7 +1,7 @@
 package io.crm.query.service;
 
-import io.crm.query.App;
 import io.crm.mc;
+import io.crm.query.App;
 import io.crm.util.TaskCoordinator;
 import io.crm.util.TaskCoordinatorBuilder;
 import io.vertx.core.eventbus.Message;
@@ -10,7 +10,6 @@ import io.vertx.core.json.JsonObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 

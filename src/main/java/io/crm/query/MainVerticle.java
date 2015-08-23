@@ -1,13 +1,11 @@
 package io.crm.query;
 
 import io.crm.mc;
-import io.crm.query.codec.ArrayListToJsonArrayCodec;
 import io.crm.query.service.*;
 import io.crm.util.AsyncUtil;
 import io.vertx.core.*;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
-import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.mongo.MongoClient;
 import org.apache.commons.io.IOUtils;
@@ -16,10 +14,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 import static io.crm.query.Events.*;
 

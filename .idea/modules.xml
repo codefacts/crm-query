@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../common-crm/common.iml" filepath="$PROJECT_DIR$/../common-crm/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crm-core/core.iml" filepath="$PROJECT_DIR$/../crm-core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm-query.iml" filepath="$PROJECT_DIR$/crm-query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" filepath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
     </modules>
   </component>
 </project>
