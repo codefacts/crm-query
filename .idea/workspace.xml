@@ -1,184 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="Update models">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_crm_common_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/common_crm.xml" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\diag\Elapsed.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\diag\Watch.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\FailureCode.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\IndexTouple.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\Indexes.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\intfs\Callable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\intfs\ConsumerInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\intfs\Runnable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\mc.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\AsyncUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\ErrorBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\ExceptionUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\TaskCoordinator.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\TaskCoordinatorBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\Touple2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\Util.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\WrapMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\util\exceptions\InvalidArgumentException.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\diag\Elapsed.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\diag\Watch.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\FailureCode.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\IndexTouple.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\Indexes.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\intfs\Callable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\intfs\ConsumerInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\intfs\Runnable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\mc.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\AsyncUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\AsyncUtil$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\AsyncUtil$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\AsyncUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\ErrorBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\ExceptionUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\TaskCoordinator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\TaskCoordinatorBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\Touple2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\Util$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\Util.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\WrapMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\util\exceptions\InvalidArgumentException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\diag\Elapsed.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\diag\Watch.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\FailureCode.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\IndexTouple.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\Indexes.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\intfs\Callable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\intfs\ConsumerInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\intfs\Runnable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\mc.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\mc.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\util\AsyncUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\util\ExceptionUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\util\TaskCoordinator.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\util\TaskCoordinatorBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\util\Util.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\util\exceptions\InvalidArgumentException.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\diag\Elapsed.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\diag\Watch.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\FailureCode.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\IndexTouple.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\Indexes.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\Query.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\intfs\Callable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\intfs\ConsumerInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\intfs\Runnable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\mc.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\AsyncUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\AsyncUtil$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\AsyncUtil$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\AsyncUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\ExceptionUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\TaskCoordinator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\TaskCoordinatorBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\Util$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\Util.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\util\exceptions\InvalidArgumentException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\diag\Elapsed.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\diag\Watch.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\io\crm\FailureCode.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\io\crm\IndexTouple.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\io\crm\Indexes.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\io\crm\mc.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\diag\Elapsed.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\diag\Watch.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\io\crm\FailureCode.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\io\crm\IndexTouple.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\io\crm\Indexes.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\io\crm\Query.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\io\crm\mc.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\entity\User.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\mc.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$10.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$11.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$12.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$13.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$14.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$15.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$16.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$17.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$18.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$19.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$1DD.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$20.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$21.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$22.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$4.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$5.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$6.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$7.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$8.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$9.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView$Status.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\RegisterView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DBTree$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DBTree.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DashboardView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DashboardView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\TreeHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\TreeTableHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\TreeTableHandler.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/codec/ArrayListToJsonArrayCodec.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/codec/ArrayListToJsonArrayCodec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/codec/ArrayListToJsonArrayCodec.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/codec/ArrayListToJsonArrayCodec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/codec/ArrayListToJsonArrayCodec.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/codec/ArrayListToJsonArrayCodec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/collection/CollectionView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/collection/CollectionView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/dashboard/DashboardView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/dashboard/DashboardView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/DbService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/DbService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/service/DbTreeService.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/service/DbTreeService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/util/ExceptionUtil.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/util/ExceptionUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/util/FutureResult.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/util/FutureResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/ImportService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/ImportService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/MainVerticle.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/MainVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/MainVerticle.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/MainVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/MainVerticle.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/MainVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/service/QueryService.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/service/QueryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/RegionService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/RegionService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/Resp.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/Resp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/TownService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/TownService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService$1.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeService.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/FailureCode.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/FailureCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm-query.iml" afterPath="$PROJECT_DIR$/crm-query.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/pom.xml" afterPath="$PROJECT_DIR$/../crm-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/pom.xml" afterPath="$PROJECT_DIR$/../vaadincrm/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../crm-core/.idea/workspace.xml" />
+    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../vaadincrm/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -377,6 +201,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,15 +226,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common-crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common-crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,7 +313,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30574712" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -771,7 +647,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439184123035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="io.crm:common:1.0-SNAPSHOT">
+      <created>1440327950164</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1440327950164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -794,10 +676,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5978836" sideWeight="0.5030722" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3343465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84832454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6666667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.306231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -805,14 +685,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44741532" sideWeight="0.4969278" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44741532" sideWeight="0.4969278" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3939394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6666667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.73015875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -832,7 +714,8 @@
     <MESSAGE value="Initialized Seperate module complete" />
     <MESSAGE value="tree" />
     <MESSAGE value="Update models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update models" />
+    <MESSAGE value="io.crm:common:1.0-SNAPSHOT" />
+    <option name="LAST_COMMIT_MESSAGE" value="io.crm:common:1.0-SNAPSHOT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1149,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25757575">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77272725">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77272725">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,6 +1156,7 @@
             <option name="proportions">
               <list>
                 <option value="0.30574712" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
