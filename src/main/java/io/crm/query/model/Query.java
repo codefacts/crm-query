@@ -24,6 +24,8 @@ public class Query {
     public static final String modifyDate = "modifyDate";
     public static final String createdBy = "createdBy";
     public static final String modifiedBy = "modifiedBy";
+    public static final String params = "params";
+    public static final String count = "count";
 
     public static final String concat(String... strings) {
         return String.join(".", strings);

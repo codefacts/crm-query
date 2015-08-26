@@ -2,6 +2,9 @@ package io.crm.query.service;
 
 import io.crm.mc;
 import io.crm.query.App;
+import io.crm.query.model.Query;
+import io.crm.query.model.User;
+import io.crm.util.ExceptionUtil;
 import io.crm.util.TaskCoordinator;
 import io.crm.util.TaskCoordinatorBuilder;
 import io.vertx.core.eventbus.Message;
@@ -13,6 +16,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 
+import static io.crm.query.model.Query.count;
 import static io.crm.util.ExceptionUtil.withReply;
 
 /**
@@ -69,7 +73,9 @@ public class QueryService {
     }
 
     public void listEmployees(Message<JsonObject> message) {
-        app.getMongoClient().find(mc.employees.name(), new JsonObject(), withReply(list ->
+        final JsonObject body = message.body();
+        final JsonObject criteria = body != null && body.containsKey(Query.params) ? body.getJsonObject(Query.params) : new JsonObject();
+        app.getMongoClient().find(mc.employees.name(), criteria, withReply(list ->
                 message.reply(new JsonArray(list)), message));
     }
 
@@ -84,8 +90,21 @@ public class QueryService {
     }
 
     public void listUserTypes(Message<JsonObject> message) {
-        app.getMongoClient().find(mc.user_types.name(), new JsonObject(), withReply(list ->
-                message.reply(new JsonArray(list)), message));
+        app.getMongoClient().find(mc.user_types.name(), new JsonObject(), withReply(list -> {
+            final TaskCoordinator taskCoordinator = TaskCoordinatorBuilder.create().count(list.size())
+                    .onSuccess(() -> message.reply(new JsonArray(list)))
+                    .onError(e -> ExceptionUtil.fail(message, e)).get();
+
+            list.forEach(userType -> {
+                app.getMongoClient().count(mc.employees.name(), new JsonObject()
+                        .put(Query.userTypeId, userType.getLong(Query.id)), taskCoordinator.add(userCount -> userType.put(Query.count, userCount)));
+            });
+        }, message));
+    }
+
+    public void findEmployee(Message<String> message) {
+        app.getMongoClient().findOne(mc.employees.name(), new JsonObject()
+                .put(User.userId, message.body()), new JsonObject(), ExceptionUtil.withReply(j -> message.reply(j), message));
     }
 
     public static void main(String... args) throws Exception {
