@@ -73,7 +73,10 @@ public class MainVerticle extends AbstractVerticle {
 
         bus.consumer(FIND_ALL_REGIONS, ctx.getBean(QueryService.class)::listRegions);
         bus.consumer(FIND_ALL_AREAS, ctx.getBean(QueryService.class)::listAreas);
-        bus.consumer(FIND_ALL_HOUSES, ctx.getBean(QueryService.class)::listHouses);
+        bus.consumer(FIND_ALL_HOUSES, (Handler<Message<JsonObject>>) (message) -> {
+            ctx.getBean(QueryService.class).listHouses(message);
+            System.out.println("RETURNED");
+        });
         bus.consumer(FIND_ALL_BRANDS, ctx.getBean(QueryService.class)::listBrands);
         bus.consumer(FIND_ALL_LOCATIONS, ctx.getBean(QueryService.class)::listLocations);
         bus.consumer(FIND_ALL_CLIENTS, ctx.getBean(QueryService.class)::listClients);
