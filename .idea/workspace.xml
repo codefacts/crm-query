@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindowBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeView.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentComboBox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentFormLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentGridLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentHorizontalLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentLabel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentOptionGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentTextArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentTextField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentVerticalLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -39,11 +44,21 @@
       <file leaf-file-name="EmployeeTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28977272">
-              <caret line="204" column="13" selection-start-line="204" selection-start-column="13" selection-end-line="204" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.57954544">
+              <caret line="243" column="5" selection-start-line="243" selection-start-column="5" selection-end-line="243" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FluentHorizontalLayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentHorizontalLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../crm-core/pom.xml" />
         <option value="$PROJECT_DIR$/../vaadincrm/pom.xml" />
         <option value="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/mm.java" />
         <option value="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/model/House.java" />
@@ -181,10 +195,11 @@
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/model/Query.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/usertype/UserTypeTable.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeView.java" />
-        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindowBuilder.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindow.java" />
+        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentHorizontalLayout.java" />
+        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" />
       </list>
     </option>
   </component>
@@ -463,6 +478,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vaadincrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fluentui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -867,7 +908,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="D:/vaadin-demo-projects/shopi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vaadin-fluent-ui-master" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="80" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="97" />
@@ -903,6 +944,7 @@
       <recent name="io.crm.query" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\vaadincrm\src\main\java" />
       <recent name="D:\IdeaProjects\crm-query\src\main\java" />
       <recent name="D:\IdeaProjects\crm-query\src\main\java\io\crm\query" />
       <recent name="D:\IdeaProjects\crm-query\src\main\resources" />
@@ -1272,7 +1314,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440613726543</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="EmployeeTable">
+      <created>1440693365563</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1440693365563</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1289,7 +1337,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1302,7 +1350,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6666667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2462006" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2462006" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1362,14 +1410,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Resp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/codec/ArrayListToJsonArrayCodec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1802,10 +1842,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentHorizontalLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28977272">
-          <caret line="204" column="13" selection-start-line="204" selection-start-column="13" selection-end-line="204" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.57954544">
+          <caret line="243" column="5" selection-start-line="243" selection-start-column="5" selection-end-line="243" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
