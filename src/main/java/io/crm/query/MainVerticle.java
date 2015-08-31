@@ -83,6 +83,7 @@ public class MainVerticle extends AbstractVerticle {
         bus.consumer(FIND_ALL_EMPLOYEES, ctx.getBean(QueryService.class)::listEmployees);
         bus.consumer(FIND_ALL_CONTACTS, ctx.getBean(QueryService.class)::listContacts);
         bus.consumer(FIND_ALL_USER_TYPES, ctx.getBean(QueryService.class)::listUserTypes);
+        bus.consumer(Events.FIND_ALL_CAMPAIGNS, ctx.getBean(QueryService.class)::listCampaigns);
         bus.consumer(Events.FIND_EMPLOYEE, ctx.getBean(QueryService.class)::findEmployee);
     }
 

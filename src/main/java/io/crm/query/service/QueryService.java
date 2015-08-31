@@ -102,6 +102,11 @@ public class QueryService {
         }, message));
     }
 
+    public void listCampaigns(Message<JsonObject> message) {
+        app.getMongoClient().find(mc.campaigns.name(), new JsonObject(), withReply(list ->
+                message.reply(new JsonArray(list)), message));
+    }
+
     public void findEmployee(Message<String> message) {
         app.getMongoClient().findOne(mc.employees.name(), new JsonObject()
                 .put(User.userId, message.body()), new JsonObject(), ExceptionUtil.withReply(j -> message.reply(j), message));

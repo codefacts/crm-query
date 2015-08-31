@@ -30,4 +30,5 @@ final public class Events {
     public static final String GET_DB_TREE = "GET_DB_TREE";
     public static final String GET_COLLECTION_COUNT = "GET_COLLECTION_COUNT";
     public static final String FIND_EMPLOYEE = "FIND_EMPLOYEE";
+    public static final String FIND_ALL_CAMPAIGNS = "FIND_ALL_CAMPAIGNS";
 }
