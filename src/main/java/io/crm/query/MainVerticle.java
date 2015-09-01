@@ -1,5 +1,6 @@
 package io.crm.query;
 
+import io.crm.Events;
 import io.crm.mc;
 import io.crm.query.service.*;
 import io.crm.util.AsyncUtil;
@@ -15,7 +16,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.io.IOException;
 import java.io.InputStream;
 
-import static io.crm.query.Events.*;
+import static io.crm.Events.*;
 
 /**
  * Created by someone on 08-Jul-2015.
