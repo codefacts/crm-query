@@ -67,8 +67,7 @@ public class MainVerticle extends AbstractVerticle {
     private void registerEvents(ConfigurableApplicationContext ctx) {
         final EventBus bus = getVertx().eventBus();
 
-        bus.consumer(GET_DB_TREE, (Message<JsonObject> m) -> ctx.getBean(DbTreeService.class).treeWithSummary(m));
-        bus.consumer(GET_DB_TREE_WITH_USERS, (Message<JsonObject> m) -> ctx.getBean(DbTreeWithUsers.class).treeWithSummary(m));
+        bus.consumer(GET_DB_TREE_WITH_USERS, ctx.getBean(DbTreeWithUsers.class)::treeWithSummary);
         bus.consumer(GET_COLLECTION_COUNT, ctx.getBean(QueryService.class)::count);
 
         bus.consumer(FIND_ALL_REGIONS, ctx.getBean(QueryService.class)::listRegions);
