@@ -29,7 +29,7 @@ public class MainVerticle extends AbstractVerticle {
 
     @Override
     public void start(Future<Void> startFuture) throws Exception {
-        System.out.println("--------------Strating verticle");
+        System.out.println("--------------QUERY: Strating verticle");
         this.startFuture = startFuture;
 
         final JsonObject config = new JsonObject(loadConfig("/mongo-config.json"));
@@ -41,8 +41,6 @@ public class MainVerticle extends AbstractVerticle {
         app.initialize(getVertx().eventBus(), getVertx(), mongoClient, config, context);
 
         onDbInialized();
-
-        System.out.println("--------------Verticle complete");
     }
 
     private void onFail(Throwable throwable) {
@@ -100,7 +98,7 @@ public class MainVerticle extends AbstractVerticle {
     private void onComplete() {
         startFuture.complete();
         startFuture = null;
-        System.out.println("<-------------------COMPLETE-------------------->");
+        System.out.println("<-------------------QUERY COMPLETE-------------------->");
         if (App.testRun != null) App.testRun.run();
     }
 

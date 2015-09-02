@@ -2,8 +2,8 @@ D:\IdeaProjects\crm-query\src\main\java\io\crm\query\service\QueryService.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\User.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Client.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\House.java
+D:\IdeaProjects\crm-query\src\main\java\io\crm\query\service\DbTreeWithUsers.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Consumer.java
-D:\IdeaProjects\crm-query\src\main\java\io\crm\query\Events.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\AC.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\MainVerticle.java
 D:\IdeaProjects\crm-query\src\main\java\io\crm\query\exceptions\ValidationException.java
