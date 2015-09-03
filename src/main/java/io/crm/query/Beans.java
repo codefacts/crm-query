@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
  * Created by someone on 16-Aug-2015.
  */
 @Configuration
-final public class Beans {
+public class Beans {
 
     @Bean
     public ObjectMapper objectMapper() {

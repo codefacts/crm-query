@@ -2,63 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\CollectionInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\CollectionInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\cn.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/App.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/App.java" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\CollectionInfo.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/App.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/Beans.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/Beans.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/MainVerticle.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/MainVerticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/service/QueryService.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/service/QueryService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AppUI.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AppUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/area/AreaTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/area/AreaTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/AsyncUtil.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/AsyncUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/Beans.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/Beans.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/brand/BrandTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/brand/BrandTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/collection/CollectionTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/collection/CollectionTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/DashboardNavigator.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/DashboardNavigator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/dashboard/DashboardView.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/dashboard/DashboardView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeWithUsers.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeWithUsers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/ErrorBuilder.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/ErrorBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/ExceptionUtil.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/ExceptionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/FailureCode.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/FailureCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/FutureResult.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/FutureResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/house/HouseTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/house/HouseTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/IndexTouple.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/IndexTouple.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/Indexes.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/Indexes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/location/LocationTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/location/LocationTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/LoginView.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/LoginView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/MainVerticle.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/MainView.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/MainView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/MapBuilder.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/MapBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindow.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindowBuilder.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/PopupWindowBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/QC.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/QC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/region/RegionTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/region/RegionTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Resp.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Resp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Sessions.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Sessions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/SimpleCounter.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/SimpleCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/TaskCoordinator.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/TaskCoordinator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/TaskCoordinatorBuilder.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/TaskCoordinatorBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple1.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple10.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple10.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple11.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple11.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple12.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple12.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple2.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple3.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple4.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple5.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple6.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple6.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple7.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple8.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple8.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple9.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple9.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/usertype/UserTypeTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/usertype/UserTypeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Util.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/mc.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/mc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/mm.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/mm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -85,108 +36,7 @@
     <favorites_list name="crm-query" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/MainView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllModuleStarterVerticle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AppUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardNavigator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/DashboardNavigator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainVerticle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/MainVerticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/mm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Resp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sessions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Sessions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewType.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/ViewType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54924244">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/FailureCode.java" />
         <option value="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/Indexes.java" />
         <option value="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/IndexTouple.java" />
         <option value="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/mc.java" />
@@ -238,8 +87,6 @@
         <option value="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/Touple12.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeWithUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/Beans.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/FutureResult.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/MapBuilder.java" />
@@ -257,13 +104,16 @@
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/LoginView.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/MainView.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java" />
-        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AppUI.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/DashboardNavigator.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/MainVerticle.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/mm.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Resp.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Sessions.java" />
+        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" />
+        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/Beans.java" />
       </list>
     </option>
   </component>
@@ -1017,6 +867,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="crm-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common-crm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1660,7 +1578,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441294269882</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CAMPAIGN TREE">
+      <created>1441303074879</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1441303074879</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1677,7 +1601,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1695,7 +1619,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.306231" sideWeight="0.50827426" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44206774" sideWeight="0.49392098" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6238859" sideWeight="0.49392098" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1785,22 +1709,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/AsyncUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/ExceptionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../common-crm/src/main/java/io/crm/util/SimpleCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1950,22 +1858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/Beans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -2130,22 +2022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AppUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2172,7 +2048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/mm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.16098484">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
@@ -2180,7 +2056,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Resp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.22537878">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
@@ -2188,7 +2064,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/Sessions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.16098484">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
@@ -2196,8 +2072,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/ViewType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54924244">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.8068182">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="366" column="17" selection-start-line="366" selection-start-column="17" selection-end-line="366" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28977272">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16098484">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/Beans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3219697">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
