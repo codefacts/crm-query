@@ -21,7 +21,7 @@ import static io.crm.Events.*;
 /**
  * Created by someone on 08-Jul-2015.
  */
-public class MainVerticle extends AbstractVerticle {
+final public class MainVerticle extends AbstractVerticle {
     private static final String FIND_ALL_USER_TYPES = "FIND_ALL_USER_TYPES";
     private Future<Void> startFuture;
     private int count = mc.values().length;

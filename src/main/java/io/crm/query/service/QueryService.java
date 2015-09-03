@@ -23,7 +23,7 @@ import static io.crm.util.ExceptionUtil.withReply;
  * Created by someone on 12-Aug-2015.
  */
 @Component
-public class QueryService {
+final public class QueryService {
     private final App app;
 
     @Autowired

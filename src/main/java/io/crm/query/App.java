@@ -14,7 +14,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Component
-public class App {
+final public class App {
     private EventBus bus;
     private Vertx vertx;
     private MongoClient mongoClient;

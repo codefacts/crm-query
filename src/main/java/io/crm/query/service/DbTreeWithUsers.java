@@ -19,7 +19,7 @@ import static io.crm.util.ExceptionUtil.withReply;
  * Created by someone on 01/09/2015.
  */
 @Component
-public class DbTreeWithUsers {
+final public class DbTreeWithUsers {
     private final App app;
 
     @Autowired
