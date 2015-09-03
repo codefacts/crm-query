@@ -4,20 +4,13 @@ import io.crm.mc;
 import io.crm.query.App;
 import io.crm.query.model.EmployeeType;
 import io.crm.query.model.Query;
-import io.crm.query.model.User;
-import io.crm.util.ExceptionUtil;
 import io.crm.util.TaskCoordinator;
 import io.crm.util.TaskCoordinatorBuilder;
 import io.vertx.core.eventbus.Message;
-import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.mongo.MongoClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import static io.crm.query.model.Query.*;
 import static io.crm.util.ExceptionUtil.withReply;
@@ -87,7 +80,7 @@ public class DbTreeWithUsers {
                 regionList.forEach(region -> {
 
                     mongoClient.find(mc.areas.name(), new JsonObject()
-                            .put(Query.regionId, region.getLong(Query.id)), withReply(
+                            .put(Query.regionId, region.getLong(Query.id)), regionTaskCoordinator.catchOnException(
                             areaList -> {
                                 final int areaListSize = areaList.size();
                                 region.put(mc.areas.name(), areaList);
@@ -102,7 +95,7 @@ public class DbTreeWithUsers {
                                 areaList.forEach(area -> {
 
                                     mongoClient.find(mc.distribution_houses.name(), new JsonObject()
-                                            .put(Query.areaId, area.getLong(Query.id)), withReply(
+                                            .put(Query.areaId, area.getLong(Query.id)), areaTaskCoordinator.catchOnException(
                                             houseList -> {
                                                 final int houseListSize = houseList.size();
                                                 area.put(mc.distribution_houses.name(), houseList);
@@ -152,7 +145,7 @@ public class DbTreeWithUsers {
                                                                 locationTotal += size;
                                                             }));
                                                 });
-                                            }, message));
+                                            }));
 
                                     mongoClient.find(mc.employees.name(), new JsonObject()
                                             .put(Query.userTypeId, EmployeeType.area_coordinator.id)
@@ -165,7 +158,7 @@ public class DbTreeWithUsers {
                                                 acTotal += size;
                                             }));
                                 });
-                            }, message));
+                            }));
                 });
 
             }, message));
