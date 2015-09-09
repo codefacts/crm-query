@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/../common-crm/pom.xml" />
         <option value="$PROJECT_DIR$/../crm-core/pom.xml" />
         <option value="$PROJECT_DIR$/../vaadincrm/pom.xml" />
+        <option value="$PROJECT_DIR$/../crm-web/pom.xml" />
       </list>
     </option>
   </component>

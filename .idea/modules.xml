@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../crm-core/core.iml" filepath="$PROJECT_DIR$/../crm-core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm-query.iml" filepath="$PROJECT_DIR$/crm-query.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" filepath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crm-web/web.iml" filepath="$PROJECT_DIR$/../crm-web/web.iml" />
     </modules>
   </component>
 </project>
