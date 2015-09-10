@@ -4,45 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\schema-validation\schema-validation.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\AC.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Address.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Area.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Br.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Brand.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Campaign.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Client.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\ConsumerType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\EmployeeType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\HeadOffice.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\House.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Identifiable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Location.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Region.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Role.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Sup.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\User$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\User.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\UserIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\UserType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\AC.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Address.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Area.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Client.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\ConsumerType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\EmployeeType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\HeadOffice.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Identifiable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Location.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Model.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Town.class" afterPath="" />
+    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="Json-Schema-validation and Move model package to common">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -262,7 +224,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -275,6 +236,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -812,7 +774,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441807362286</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Json-Schema-validation and Move model package to common">
+      <created>1441886684618</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1441886684618</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
