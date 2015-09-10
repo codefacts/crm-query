@@ -5,235 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/AC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Area.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Br.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Brand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Campaign.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Consumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/ConsumerType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/EmployeeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/HeadOffice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/House.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Identifiable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Location.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_lang_js_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Sup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/UserIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/UserType.java" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Address.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Area.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Br.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Brand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Campaign.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Client.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Consumer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\ConsumerType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\EmployeeType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\HeadOffice.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\House.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Identifiable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Location.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Query.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Region.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Role.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\Sup.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\User.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\UserIndex.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\UserType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\src\main\java\io\crm\core\model\ac.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_campudus_json_schema_validator_2_10_1_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_github_fge_btf_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_github_fge_jackson_coreutils_1_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_github_fge_json_schema_core_1_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_github_fge_json_schema_validator_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_github_fge_msg_simple_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_github_fge_uri_template_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__com_googlecode_libphonenumber_libphonenumber_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__javax_mail_mailapi_1_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__joda_time_joda_time_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__joda_time_joda_time_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__org_mozilla_rhino_1_7R4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\AC.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Address.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Area.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Br.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Brand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Campaign.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Client.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Consumer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\ConsumerType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\EmployeeType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\HeadOffice.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\House.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Identifiable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Location.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Query.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Region.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Role.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\Sup.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\User.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\UserIndex.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\src\main\java\io\crm\query\model\UserType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Query.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\AC.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Address.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Area.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\AreaCoordinator.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Br.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\BrSupervisor.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Brand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Campaign.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Client.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Consumer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\ConsumerContact.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\ConsumerType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\DistributionHouse.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\EmployeeType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\HeadOffice.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\House.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Identifiable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Location.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Model.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Query.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Region.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Role.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Sup.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\Town.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\User.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\UserIndex.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\src\main\java\vaadincrm\model\UserType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\AppUI.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\DashboardNavigator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\DashboardNavigator$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\DashboardNavigator$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\DashboardNavigator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\Sessions.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\codec\ArrayListToJsonArrayCodec.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\event\BrowserResizeEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\event\CloseOpenWindowsEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\event\DashboardEventBus.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\event\UserLoggedOutEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\event\UserLoginRequestedEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\exceptions\InvalidArgumentException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\intfcs\Callable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\intfcs\ConsumerInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\intfcs\Runnable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\mm.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\AreaCoordinator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Br.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\BrSupervisor.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Brand.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Campaign.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\ConsumerContact.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\DistributionHouse.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\House.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Query.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Region.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Role.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Sup.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\User$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\User.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\UserIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\UserType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\LoginView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\LoginView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\MainView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\area\AreaView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\brand\BrandTable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\brand\BrandTable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\brand\BrandView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\client\ClientView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\collection\CollectionView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\contact\ContactView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DashboardView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DashboardView$NotificationsButton.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\dashboard\DashboardView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\employee\EmployeeView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\location\LocationTable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\location\LocationTable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\location\LocationView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\region\RegionTable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\region\RegionTable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\region\RegionView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\usertype\UserTypeTable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\usertype\UserTypeTable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\view\usertype\UserTypeView.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/App.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/codec/ArrayListToJsonArrayCodec.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/codec/ArrayListToJsonArrayCodec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/collection/CollectionTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/collection/CollectionTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/crm/query/service/QueryService.class" afterPath="$PROJECT_DIR$/target/classes/io/crm/query/service/QueryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/AreaService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/AreaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/area/AreaTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/area/AreaTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/BrandService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/BrandService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/brand/BrandTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/brand/BrandTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/CampaignService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/CampaignService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/collection/CollectionTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/collection/CollectionTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/dashboard/DashboardView.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/dashboard/DashboardView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/DbService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/DbService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeWithUsers.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeWithUsers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/DistributionHouseService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/DistributionHouseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentNativeSelect.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentNativeSelect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/helper/Helper.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/helper/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/house/HouseTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/house/HouseTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/ImportService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/ImportService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/LocationService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/LocationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/location/LocationTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/location/LocationTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/MainVerticle.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/QC.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/QC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/service/QueryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/RegionService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/RegionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/region/RegionTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/region/RegionTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/service/SelectionService.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/service/SelectionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/test/java/TestDb.java" afterPath="$PROJECT_DIR$/../crm-core/src/test/java/TestDb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/UserIndexService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/UserIndexService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/UserService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/UserTypeService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/UserTypeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/usertype/UserTypeTable.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/usertype/UserTypeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/common.iml" afterPath="$PROJECT_DIR$/../common-crm/common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/core.iml" afterPath="$PROJECT_DIR$/../crm-core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm-query.iml" afterPath="$PROJECT_DIR$/crm-query.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/pom.xml" afterPath="$PROJECT_DIR$/../common-crm/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/pom.xml" afterPath="$PROJECT_DIR$/../crm-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/pom.xml" afterPath="$PROJECT_DIR$/../vaadincrm/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" afterPath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\schema-validation\schema-validation.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\AC.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Address.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Admin.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Area.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Br.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Brand.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Campaign.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Client.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Consumer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\ConsumerType.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Contact.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\EmployeeType.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\HeadOffice.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\House.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Identifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Location.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Region.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Role.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\Sup.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\User$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\User.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\UserIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\target\classes\io\crm\query\model\UserType.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\AC.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Address.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Admin.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Area.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Client.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Consumer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\ConsumerType.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\EmployeeType.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\HeadOffice.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Identifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Location.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Model.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\vaadincrm\target\classes\vaadincrm\model\Town.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -453,6 +262,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -463,19 +273,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schema-validation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1034,30 +833,30 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29946524" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6809269" sideWeight="0.506079" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33206686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84832454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52762926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976827" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27963525" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49376115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27963525" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.306231" sideWeight="0.50827426" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1889483" sideWeight="0.49392098" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1889483" sideWeight="0.49392098" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29946524" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52762926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49376115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1163,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5151515">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,7 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,9 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,10 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#893#894#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,11 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#741#742#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,10 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,10 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="196" column="13" selection-start-line="196" selection-start-column="13" selection-end-line="196" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6070#6090#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,10 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,10 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,7 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1437,9 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1447,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1479,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1487,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="58" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25378788">
           <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1519,9 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93560606">
           <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1529,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29166666">
           <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,9 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28977272">
           <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1547,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7083333">
           <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,9 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.109848484">
           <caret line="116" column="87" selection-start-line="116" selection-start-column="87" selection-end-line="116" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
