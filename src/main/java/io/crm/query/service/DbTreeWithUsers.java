@@ -1,9 +1,9 @@
 package io.crm.query.service;
 
+import io.crm.QC;
 import io.crm.mc;
 import io.crm.query.App;
-import io.crm.query.model.EmployeeType;
-import io.crm.query.model.Query;
+import io.crm.model.EmployeeType;
 import io.crm.util.TaskCoordinator;
 import io.crm.util.TaskCoordinatorBuilder;
 import io.vertx.core.eventbus.Message;
@@ -12,7 +12,7 @@ import io.vertx.ext.mongo.MongoClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import static io.crm.query.model.Query.*;
+import static io.crm.QC.*;
 import static io.crm.util.ExceptionUtil.withReply;
 
 /**
@@ -64,14 +64,14 @@ final public class DbTreeWithUsers {
                 final TaskCoordinator regionTaskCoordinator = TaskCoordinatorBuilder.create().count(regionList.size())
                         .onSuccess(() -> {
                             message.reply(new JsonObject()
-                                    .put(Query.regions, regionList)
-                                    .put(Query.regionCount, regionList.size())
-                                    .put(Query.areaCount, areaTotal)
-                                    .put(Query.houseCount, houseTotal)
-                                    .put(Query.locationCount, locationTotal)
-                                    .put(Query.acCount, acTotal)
-                                    .put(Query.supCount, supTotal)
-                                    .put(Query.brCount, brTotal));
+                                    .put(QC.regions, regionList)
+                                    .put(QC.regionCount, regionList.size())
+                                    .put(QC.areaCount, areaTotal)
+                                    .put(QC.houseCount, houseTotal)
+                                    .put(QC.locationCount, locationTotal)
+                                    .put(QC.acCount, acTotal)
+                                    .put(QC.supCount, supTotal)
+                                    .put(QC.brCount, brTotal));
                             System.err.print(this);
                         })
                         .message(message)
@@ -80,11 +80,11 @@ final public class DbTreeWithUsers {
                 regionList.forEach(region -> {
 
                     mongoClient.find(mc.areas.name(), new JsonObject()
-                            .put(Query.regionId, region.getLong(Query.id)), regionTaskCoordinator.catchOnException(
+                            .put(QC.regionId, region.getLong(QC.id)), regionTaskCoordinator.catchOnException(
                             areaList -> {
                                 final int areaListSize = areaList.size();
                                 region.put(mc.areas.name(), areaList);
-                                region.put(Query.areaCount, areaListSize);
+                                region.put(QC.areaCount, areaListSize);
                                 areaTotal += areaListSize;
 
                                 final TaskCoordinator areaTaskCoordinator = TaskCoordinatorBuilder.create().count(areaListSize * 2)
@@ -95,12 +95,12 @@ final public class DbTreeWithUsers {
                                 areaList.forEach(area -> {
 
                                     mongoClient.find(mc.distribution_houses.name(), new JsonObject()
-                                            .put(Query.areaId, area.getLong(Query.id)), areaTaskCoordinator.catchOnException(
+                                            .put(QC.areaId, area.getLong(QC.id)), areaTaskCoordinator.catchOnException(
                                             houseList -> {
                                                 final int houseListSize = houseList.size();
                                                 area.put(mc.distribution_houses.name(), houseList);
-                                                area.put(Query.houseCount, houseListSize);
-                                                region.put(Query.houseCount, region.getInteger(Query.houseCount, 0) + houseListSize);
+                                                area.put(QC.houseCount, houseListSize);
+                                                region.put(QC.houseCount, region.getInteger(QC.houseCount, 0) + houseListSize);
                                                 houseTotal += houseListSize;
 
                                                 final TaskCoordinator houseTaskCoordinator = TaskCoordinatorBuilder.create().count(houseListSize * 3)
@@ -111,20 +111,20 @@ final public class DbTreeWithUsers {
                                                 houseList.forEach(house -> {
 
                                                     mongoClient.find(mc.employees.name(), new JsonObject()
-                                                            .put(Query.userTypeId, EmployeeType.br.id)
-                                                            .put(Query.houseId, house.getLong(Query.id)), houseTaskCoordinator.add(
+                                                            .put(QC.userTypeId, EmployeeType.br.id)
+                                                            .put(QC.houseId, house.getLong(QC.id)), houseTaskCoordinator.add(
                                                             brList -> {
                                                                 final int size = brList.size();
-                                                                house.put(Query.brs, brList);
-                                                                house.put(Query.brCount, size);
-                                                                area.put(Query.brCount, area.getInteger(Query.brCount, 0));
-                                                                region.put(Query.brCount, region.getInteger(Query.brCount, 0));
+                                                                house.put(QC.brs, brList);
+                                                                house.put(QC.brCount, size);
+                                                                area.put(QC.brCount, area.getInteger(QC.brCount, 0));
+                                                                region.put(QC.brCount, region.getInteger(QC.brCount, 0));
                                                                 brTotal += size;
                                                             }));
 
                                                     mongoClient.find(mc.employees.name(), new JsonObject()
-                                                            .put(Query.userTypeId, EmployeeType.br_supervisor.id)
-                                                            .put(Query.houseId, house.getLong(Query.id)), houseTaskCoordinator.add(
+                                                            .put(QC.userTypeId, EmployeeType.br_supervisor.id)
+                                                            .put(QC.houseId, house.getLong(QC.id)), houseTaskCoordinator.add(
                                                             supsList -> {
                                                                 final int size = supsList.size();
                                                                 house.put(brSupervisors, supsList);
@@ -135,7 +135,7 @@ final public class DbTreeWithUsers {
                                                             }));
 
                                                     mongoClient.find(mc.locations.name(), new JsonObject()
-                                                            .put(Query.houseId, house.getLong(Query.id)), houseTaskCoordinator.add(
+                                                            .put(QC.houseId, house.getLong(QC.id)), houseTaskCoordinator.add(
                                                             locationList -> {
                                                                 final int size = locationList.size();
                                                                 house.put(locations, locationList);
@@ -148,13 +148,13 @@ final public class DbTreeWithUsers {
                                             }));
 
                                     mongoClient.find(mc.employees.name(), new JsonObject()
-                                            .put(Query.userTypeId, EmployeeType.area_coordinator.id)
-                                            .put(Query.areaId, area.getLong(Query.id)), areaTaskCoordinator.add(
+                                            .put(QC.userTypeId, EmployeeType.area_coordinator.id)
+                                            .put(QC.areaId, area.getLong(QC.id)), areaTaskCoordinator.add(
                                             acList -> {
                                                 final int size = acList.size();
-                                                area.put(Query.areaCoordinators, acList);
-                                                area.put(Query.acCount, size);
-                                                region.put(Query.acCount, region.getInteger(Query.acCount, 0));
+                                                area.put(QC.areaCoordinators, acList);
+                                                area.put(QC.acCount, size);
+                                                region.put(QC.acCount, region.getInteger(QC.acCount, 0));
                                                 acTotal += size;
                                             }));
                                 });

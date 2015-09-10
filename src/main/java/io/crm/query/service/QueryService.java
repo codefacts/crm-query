@@ -1,8 +1,8 @@
 package io.crm.query.service;
 
+import io.crm.QC;
 import io.crm.mc;
 import io.crm.query.App;
-import io.crm.query.model.Query;
 import io.crm.query.model.User;
 import io.crm.util.ExceptionUtil;
 import io.crm.util.TaskCoordinator;
@@ -16,7 +16,6 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 
-import static io.crm.query.model.Query.count;
 import static io.crm.util.ExceptionUtil.withReply;
 
 /**
@@ -74,7 +73,7 @@ final public class QueryService {
 
     public void listEmployees(Message<JsonObject> message) {
         final JsonObject body = message.body();
-        final JsonObject criteria = body != null && body.containsKey(Query.params) ? body.getJsonObject(Query.params) : new JsonObject();
+        final JsonObject criteria = body != null && body.containsKey(QC.params) ? body.getJsonObject(QC.params) : new JsonObject();
         app.getMongoClient().find(mc.employees.name(), criteria, withReply(list ->
                 message.reply(new JsonArray(list)), message));
     }
@@ -97,7 +96,7 @@ final public class QueryService {
 
             list.forEach(userType -> {
                 app.getMongoClient().count(mc.employees.name(), new JsonObject()
-                        .put(Query.userTypeId, userType.getLong(Query.id)), taskCoordinator.add(userCount -> userType.put(Query.count, userCount)));
+                        .put(QC.userTypeId, userType.getLong(QC.id)), taskCoordinator.add(userCount -> userType.put(QC.count, userCount)));
             });
         }, message));
     }
