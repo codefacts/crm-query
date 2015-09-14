@@ -3,7 +3,6 @@ package io.crm.query.service;
 import io.crm.QC;
 import io.crm.mc;
 import io.crm.query.App;
-import io.crm.query.model.User;
 import io.crm.util.ExceptionUtil;
 import io.crm.util.TaskCoordinator;
 import io.crm.util.TaskCoordinatorBuilder;
@@ -108,7 +107,7 @@ final public class QueryService {
 
     public void findEmployee(Message<String> message) {
         app.getMongoClient().findOne(mc.employees.name(), new JsonObject()
-                .put(User.userId, message.body()), new JsonObject(), ExceptionUtil.withReply(j -> message.reply(j), message));
+                .put(QC.userId, message.body()), new JsonObject(), ExceptionUtil.withReply(j -> message.reply(j), message));
     }
 
     public static void main(String... args) throws Exception {
