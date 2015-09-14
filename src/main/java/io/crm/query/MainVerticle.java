@@ -102,8 +102,9 @@ final public class MainVerticle extends AbstractVerticle {
     }
 
     @Override
-    public void stop() throws Exception {
+    public void stop(Future<Void> stopFuture) throws Exception {
         app.getContext().close();
         app.getMongoClient().close();
+        stopFuture.complete();
     }
 }

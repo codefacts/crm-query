@@ -5,59 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\async_file.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\async_map.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\context.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\counter.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\datagram_packet.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\datagram_socket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\dns_client.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\event_bus.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\file_props.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\file_system.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\file_system_props.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\future.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_client.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_client_request.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_client_response.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_server.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_server_file_upload.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_server_request.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_server_request_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\http_server_response.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\local_map.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\lock.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\measured.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\message.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\message_consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\message_producer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\multi_map.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\mx_record.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\net_client.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\net_server.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\net_socket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\net_socket_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\packet_writestream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\read_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\server_web_socket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\server_web_socket_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\shared_data.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\socket_address.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\srv_record.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\stream_base.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\timeout_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\util\console.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\util\jvm-npm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\util\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\vertx.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\web_socket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\web_socket_base.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\web_socket_frame.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\web_socket_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.vertx\debug-js\vertx-js\write_stream.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Consumer.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Consumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Contact.java" afterPath="$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Contact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -94,115 +43,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Brand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Brand.java">
+      <file leaf-file-name="ConfigureCampaignTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrSupervisor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/BrSupervisor.java">
+      <file leaf-file-name="CampaignTable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Campaign.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Campaign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="House.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/House.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Location.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Region.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Region.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8068182">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/UserType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state vertical-scroll-proportion="1.1382576">
+              <caret line="246" column="27" selection-start-line="246" selection-start-column="27" selection-end-line="246" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -220,7 +75,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../common-crm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../vaadincrm" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -236,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/fluentui/FluentNativeSelect.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/house/HouseTable.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/area/AreaTable.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/service/SelectionService.java" />
@@ -261,7 +115,6 @@
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/region/RegionTable.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/brand/BrandTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/crm/query/service/DbTreeWithUsers.java" />
-        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java" />
         <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java" />
         <option value="$PROJECT_DIR$/../schema-validation/pom.xml" />
@@ -287,6 +140,8 @@
         <option value="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Contact.java" />
         <option value="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/UserType.java" />
         <option value="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java" />
       </list>
     </option>
   </component>
@@ -450,6 +305,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vaadincrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campaign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1296,7 +1177,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441887772447</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Json-Schema-validation and Move model package to common">
+      <created>1442213133238</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1442213133238</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1317,6 +1204,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29946524" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6809269" sideWeight="0.506079" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1335,7 +1223,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70944744" sideWeight="0.49392098" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29946524" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52762926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1548,24 +1435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93560606">
-          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/employee/EmployeeTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29166666">
           <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28977272">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1580,6 +1453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16098484">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1587,6 +1461,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48295453">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,27 +1470,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22537878">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/MainVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1630,6 +1484,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1637,6 +1492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1647,17 +1503,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/Beans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../common-crm/src/main/java/io/crm/model/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1672,6 +1522,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38636363">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1686,41 +1537,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/Beans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/crm/query/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42045453">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Area.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/AreaCoordinator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/BR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1728,7 +1626,7 @@
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/BrSupervisor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1738,7 +1636,7 @@
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Campaign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1748,7 +1646,7 @@
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1757,8 +1655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.19507575">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1766,7 +1664,7 @@
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/House.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1776,7 +1674,7 @@
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1786,7 +1684,17 @@
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/Region.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1795,19 +1703,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/UserType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5473485">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/model/User.java">
+    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/ConfigureCampaignTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8068182">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/view/campaign/CampaignTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1382576">
+          <caret line="246" column="27" selection-start-line="246" selection-start-column="27" selection-end-line="246" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
