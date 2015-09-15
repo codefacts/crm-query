@@ -94,11 +94,11 @@ final public class DbTreeWithUsers {
 
                                 areaList.forEach(area -> {
 
-                                    mongoClient.find(mc.distribution_houses.name(), new JsonObject()
+                                    mongoClient.find(mc.distributionHouses.name(), new JsonObject()
                                             .put(QC.areaId, area.getLong(QC.id)), areaTaskCoordinator.catchOnException(
                                             houseList -> {
                                                 final int houseListSize = houseList.size();
-                                                area.put(mc.distribution_houses.name(), houseList);
+                                                area.put(mc.distributionHouses.name(), houseList);
                                                 area.put(QC.houseCount, houseListSize);
                                                 region.put(QC.houseCount, region.getInteger(QC.houseCount, 0) + houseListSize);
                                                 houseTotal += houseListSize;

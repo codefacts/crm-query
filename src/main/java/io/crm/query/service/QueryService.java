@@ -56,7 +56,7 @@ final public class QueryService {
     }
 
     public void listHouses(Message<JsonObject> message) {
-        app.getMongoClient().find(mc.distribution_houses.name(), new JsonObject(), withReply(list ->
+        app.getMongoClient().find(mc.distributionHouses.name(), new JsonObject(), withReply(list ->
                 message.reply(new JsonArray(list)), message));
     }
 
@@ -83,12 +83,12 @@ final public class QueryService {
     }
 
     public void listContacts(Message<JsonObject> message) {
-        app.getMongoClient().find(mc.consumer_contacts.name(), new JsonObject(), withReply(list ->
+        app.getMongoClient().find(mc.consumerContacts.name(), new JsonObject(), withReply(list ->
                 message.reply(new JsonArray(list)), message));
     }
 
     public void listUserTypes(Message<JsonObject> message) {
-        app.getMongoClient().find(mc.user_types.name(), new JsonObject(), withReply(list -> {
+        app.getMongoClient().find(mc.userTypes.name(), new JsonObject(), withReply(list -> {
             final TaskCoordinator taskCoordinator = TaskCoordinatorBuilder.create().count(list.size())
                     .onSuccess(() -> message.reply(new JsonArray(list)))
                     .onError(e -> ExceptionUtil.fail(message, e)).get();
