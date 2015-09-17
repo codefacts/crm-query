@@ -123,7 +123,7 @@ final public class DbTreeWithUsers {
                                                             }));
 
                                                     mongoClient.find(mc.employees.name(), new JsonObject()
-                                                            .put(QC.userTypeId, EmployeeType.br_supervisor.id)
+                                                            .put(QC.userTypeId, EmployeeType.brSupervisor.id)
                                                             .put(QC.houseId, house.getLong(QC.id)), houseTaskCoordinator.add(
                                                             supsList -> {
                                                                 final int size = supsList.size();
@@ -148,7 +148,7 @@ final public class DbTreeWithUsers {
                                             }));
 
                                     mongoClient.find(mc.employees.name(), new JsonObject()
-                                            .put(QC.userTypeId, EmployeeType.area_coordinator.id)
+                                            .put(QC.userTypeId, EmployeeType.areaCoordinator.id)
                                             .put(QC.areaId, area.getLong(QC.id)), areaTaskCoordinator.add(
                                             acList -> {
                                                 final int size = acList.size();
