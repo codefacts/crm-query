@@ -58,19 +58,26 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for web" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="web" />
-      </profile>
       <profile default="false" name="Annotation profile for schema-validation" enabled="true">
         <sourceOutputDir name="target\generated-sources\annotations" />
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="schema-validation" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="web" />
+      </profile>
+      <profile default="false" name="Annotation profile for core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
