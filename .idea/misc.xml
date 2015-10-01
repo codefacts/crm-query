@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/../crm-web/pom.xml" />
         <option value="$PROJECT_DIR$/../pom.xml" />
         <option value="$PROJECT_DIR$/../schema-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/../crm-common/pom.xml" />
       </list>
     </option>
   </component>
