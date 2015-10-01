@@ -4,86 +4,53 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="Json-Schema-validation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/css/bootstrap/BootstrapCss.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/css/bootstrap/ButtonClasses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/css/CssClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/form/DefaultFooterBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FileUploadTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/model/Footer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/model/Header.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/css/MyButtonClasses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationFirstLastButtonTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationFirstLastButtonTemplateBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationItemTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationItemTemplateBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationTemplateBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableBody.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableBodyBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableCell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableCellBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/css/bootstrap/TableClasses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableFooter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableFooterBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableHeaderBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableRowBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableTemplateBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/Th.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/ThBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/pagination-first-last-button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/pagination-item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-cell.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-row.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/th.html" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\src\main\resources\templates\en_US\test-chold.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\MainVerticle.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\WebUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\controller\CallController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\target\classes\templates\en_US\test-chold.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/AllModuleStarterVerticle.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/AllModuleStarterVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplateBuilder.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplateBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/EventPublisherForm.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/EventPublisherForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/HomeController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/LoginController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplateBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplateBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplateBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/common.iml" afterPath="$PROJECT_DIR$/../crm-common/common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/core.iml" afterPath="$PROJECT_DIR$/../crm-core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm-query.iml" afterPath="$PROJECT_DIR$/crm-query.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/dashboard.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/dashboard.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/data-panel.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/data-panel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/data-panel.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/data-panel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../schema-validation/schema-validation.iml" afterPath="$PROJECT_DIR$/../schema-validation/schema-validation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" afterPath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/web.iml" afterPath="$PROJECT_DIR$/../crm-web/web.iml" />
+    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/AllModuleStarterVerticle.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/AllModuleStarterVerticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/App.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/area/AreaView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/codec/ArrayListToJsonArrayCodec.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/codec/ArrayListToJsonArrayCodec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/codec/ArrayListToJsonArrayCodec.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/codec/ArrayListToJsonArrayCodec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/BrandService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/BrandService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/brand/BrandView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/CampaignService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/CampaignService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/campaign/CampaignTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/campaign/CampaignTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/campaign/CampaignView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/campaign/CampaignView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/collection/CollectionView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/collection/CollectionView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/campaign/ConfigureCampaignTree.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/campaign/ConfigureCampaignTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/dashboard/DashboardView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/dashboard/DashboardView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/DbService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/DbService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/DistributionHouseService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/DistributionHouseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/employee/EmployeeView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/fluentui/FluentNativeSelect.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/fluentui/FluentNativeSelect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/util/FutureResult.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/util/FutureResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable$2.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/house/HouseView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/ImportService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/ImportService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable$1.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/location/LocationView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/MainVerticle.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/MainVerticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/MainVerticle.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/MainVerticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/service/QueryService.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/service/QueryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/RegionService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/RegionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/region/RegionView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/Resp.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/Resp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/service/SelectionService.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/service/SelectionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/TownService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/TownService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService$1.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserTypeService.class" afterPath="$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/service/UserTypeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeTable.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeView.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/view/usertype/UserTypeView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\crm-web\src\main\java\io\crm\web\WebUtils.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,8 +137,8 @@
       <file leaf-file-name="BodyHandlerImpl.java" pinned="false" current-in-tab="true">
         <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25560537">
-              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.32441473">
+              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
               <folding>
                 <element signature="e#1249#1250#0" expanded="true" />
                 <element signature="e#1305#1306#0" expanded="true" />
@@ -1576,7 +1543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443621064069</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Json-Schema-validation">
+      <created>1443714998288</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1443714998288</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1593,7 +1566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1378" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1606,12 +1579,12 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7023173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976827" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35343513" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35343513" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.306231" sideWeight="0.50827426" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14616756" sideWeight="0.49088147" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40819964" sideWeight="0.49088147" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1663,6 +1636,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initialized Seperate module complete" />
     <MESSAGE value="tree" />
     <MESSAGE value="Update models" />
@@ -1706,6 +1680,12 @@
           <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1720,7 +1700,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="221" />
+      <option name="time" value="222" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2199,8 +2179,8 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25560537">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.32441473">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
           <folding>
             <element signature="e#1249#1250#0" expanded="true" />
             <element signature="e#1305#1306#0" expanded="true" />
