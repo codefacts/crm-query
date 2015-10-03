@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/JavascriptRedirect.java" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\src\main\java\io\crm\web\template\JavaScriptRedirect.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/web.iml" afterPath="$PROJECT_DIR$/../crm-web/web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -48,11 +49,9 @@
         <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3552#3553#0" expanded="true" />
-                <element signature="e#3607#3608#0" expanded="true" />
+                <marker date="1443847448281" expanded="true" signature="39:46" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -68,11 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploadService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileUploadService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19318181">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavascriptRedirect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/JavascriptRedirect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4185606">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-header.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-row.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/table-cell.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/data-panel.html" />
@@ -155,8 +165,9 @@
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/ApiService.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/JavascriptRedirect.java" />
       </list>
     </option>
   </component>
@@ -311,6 +322,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1378" />
     <option name="height" value="738" />
   </component>
@@ -518,32 +530,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pagination" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -779,8 +765,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -854,6 +840,272 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.crm.query" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-common/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-common/target/classes/io/crm/util/ErrorBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-common/target/classes/io/crm/util/Util.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-common/target/common-1.0-SNAPSHOT-fat.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-common/target/common-1.0-SNAPSHOT.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-core/core.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-core/target/classes/io/crm/core/MainVerticle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/AllModuleStarterVerticle.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/ApiEvents.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/App.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/ST.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/HomeController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/ColumnTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplateBuilder.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FileUploadTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/Page.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/RowTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/DateInputTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/DateRangeTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/NumberTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/RangeTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/SelectTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/TextInputTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationFirstLastButtonTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationItemTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationTemplateBuilder.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableBody.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableCell.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableFooter.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableHeader.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableRow.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/Th.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/data-panel.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/web.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/schema-validation.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/vaadincrm.iml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/Controllers.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/AlertTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/AlertTemplateBuilder.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/BrCheckerDetailsTemplate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/BrCheckerDetailsTemplateBuilder.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/JavaScriptRedirect.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplateBuilder.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/alert.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/br-checker-details.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/javascript-redirect.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_crm_common_1_0_SNAPSHOT.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_crm_core_1_0_SNAPSHOT.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_crm_query_1_0_SNAPSHOT.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_crm_schema_validation_1_0_SNAPSHOT.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_crm_web_1_0_SNAPSHOT.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_vertx_vertx_auth_common_3_0_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_vertx_vertx_lang_js_3_0_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_vertx_vertx_mongo_client_3_0_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__io_vertx_vertx_web_3_0_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__org_mongodb_bson_3_0_2.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__org_mongodb_mongodb_driver_async_3_0_2.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_2.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../vaadincrm/.idea/libraries/Maven__org_watertemplate_watertemplate_engine_custom_1_2_0.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/model/Footer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/model/Header.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/AllModuleStarterVerticle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/ApiEvents.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/App.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/MainVerticle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/ST.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/CallController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/HomeController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/LoginController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/excpt/ApiServiceException.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/ApiService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/CallDetailsTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/CallDetailsTemplateBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DashboardTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DashboardTemplateBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplateBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/EmptyTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/EventPublisherForm.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FiltersPanelTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FiltersPanelTemplateBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/LoginTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/Page.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/PageBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/TemplateUtil.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/public/js/dashboard.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/static/css/bootstrap-theme.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/static/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/static/images/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/static/images/collapse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/static/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/static/js/jquery-2.1.4.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/call-details.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/data-panel.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/empty.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/event-publish-form.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/filters-panel.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/login-form.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/page.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/sidebar.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/test-classes/TestWater.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../crm-web/target/web-1.0-SNAPSHOT.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/App.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/Beans.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/MainVerticle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Address.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Area.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/AreaCoordinator.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/BR.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/BrSupervisor.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Brand.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$Area.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$AreaCoordinator.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$BR.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$BrSupervisor.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$House.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$Location.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign$Region.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Campaign.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Consumer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Contact.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/House.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Location.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/Region.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/User.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/model/UserType.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/service/ValidatorService$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/service/ValidatorService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/util/ValidationUtil.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/util/Violation.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../schema-validation/target/classes/io/crm/schema/validation/util/ViolationBuilder.class</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.App (3)">
     <configuration default="false" name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1182,12 +1434,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00001" summary="Initialized Seperate module complete">
-      <created>1438306000954</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1438306000954</updated>
-    </task>
     <task id="LOCAL-00002" summary="Initialized Seperate module complete">
       <created>1438340747454</created>
       <option name="number" value="00002" />
@@ -1476,7 +1722,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443721169222</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Web">
+      <created>1443726664276</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1443726664278</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1492,12 +1744,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1378" height="738" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1378" height="738" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40106952" sideWeight="0.50911856" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1506,7 +1757,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7023173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976827" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35343513" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35114503" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1517,6 +1768,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1840,20 +2092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/model/Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/model/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplateBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3219697">
@@ -1894,7 +2132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1929,8 +2166,6 @@
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1971,10 +2206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1982,7 +2213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6439394">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2000,11 +2230,9 @@
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
-            <element signature="e#3607#3608#0" expanded="true" />
+            <marker date="1443847448281" expanded="true" signature="39:46" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2019,8 +2247,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19318181">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/JavascriptRedirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4185606">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
