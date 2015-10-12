@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Converters.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/parsers/CsvParseError.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/parsers/CsvParseErrorBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/parsers/CsvParseResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/parsers/CsvParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/DateConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/ExportButton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/ExportButtonBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/WebApp.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/css/WebButtonClasses.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/WebMainVerticle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/WebST.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/WebUris.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Converters.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/parsers/CsvParseError.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/parsers/CsvParseErrorBuilder.java" />
@@ -13,43 +26,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/DateConverter.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/ExportButton.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/ExportButtonBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/IntegerTouple1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/config.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/export-button.html" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\App$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\App$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\App.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\Beans.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\MainVerticle.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\Resp.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\codec\ArrayListToJsonArrayCodec.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\exceptions\ValidationException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\helper\Helper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\helper\Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\mm.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\AreaService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\BrandService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\CampaignService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ClientService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ConsumerContactService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ConsumerService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\DbService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\DistributionHouseService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\EmployeeService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ImportService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ImportService$Holder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ImportService$UserId.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ImportService$UserIdGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\ImportService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\LocationService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\RegionService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\TownService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\UserIndexService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\UserService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\UserService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-core\target\classes\io\crm\core\service\UserTypeService.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/export-button.html" />
       <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\css\MyButtonClasses.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/ApiEvents.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/ApiEvents.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/ApiService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/ApiService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/BrCheckerDetailsService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/BrCheckerDetailsService.class" />
@@ -63,8 +44,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/form/DefaultFooterBuilder.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/form/DefaultFooterBuilder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/EventPublisherForm.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/EventPublisherForm.class" />
-      <change type="MODIFICATION" beforePath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\controller\FileUploadController$StatusCode.class" afterPath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\controller\FileUploadController$StatusCode.class" />
-      <change type="MODIFICATION" beforePath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\controller\FileUploadController.class" afterPath="D:\IdeaProjects\crm-web\target\classes\io\crm\web\controller\FileUploadController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController$StatusCode.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController$StatusCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/form/FormRowBuilder.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/form/FormRowBuilder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FormTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FormTemplate.class" />
@@ -83,9 +64,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableHeader.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableHeader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableRow.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableRow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/WebUtils.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/WebUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../crm-web/target/web-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/ApiEvents.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/ApiEvents.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mobicall/src/main/java/com/imslbd/web/controller/BrCheckerController.java" afterPath="$PROJECT_DIR$/../mobicall/src/main/java/com/imslbd/web/controller/BrCheckerController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/input/ButtonTemplateBuilder.java" />
@@ -96,8 +77,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/ImageController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/ImageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/QC.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/QC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebMainVerticle.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebMainVerticle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebST.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
@@ -110,9 +89,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/config.json" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/data-panel.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/data-panel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/data-panel.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/data-panel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mobicall/mobicall.iml" afterPath="$PROJECT_DIR$/../mobicall/mobicall.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/pom.xml" afterPath="$PROJECT_DIR$/../crm-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" afterPath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/web.iml" afterPath="$PROJECT_DIR$/../crm-web/web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -166,8 +143,8 @@
       <file leaf-file-name="BrCheckerDetailsService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46575344">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.4675768">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2654#2655#0" expanded="true" />
@@ -1993,7 +1970,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41889483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40106952" sideWeight="0.50911856" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2008,7 +1985,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.306231" sideWeight="0.50827426" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49019608" sideWeight="0.49088147" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49019608" sideWeight="0.49088147" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2575,8 +2552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46575344">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.4675768">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2654#2655#0" expanded="true" />
