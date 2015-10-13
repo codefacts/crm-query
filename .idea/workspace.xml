@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -73,8 +72,8 @@
       <file leaf-file-name="HashParams.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6439394">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.7291667">
+              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1638,12 +1637,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00014" summary="Added Touples">
-      <created>1440999626350</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1440999626350</updated>
-    </task>
     <task id="LOCAL-00015" summary="Added Campaign">
       <created>1441010526621</created>
       <option name="number" value="00015" />
@@ -1932,7 +1925,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444742365060</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="HashParams.js">
+      <created>1444757912928</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1444757912928</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1992,7 +1991,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="tree" />
     <MESSAGE value="Update models" />
     <MESSAGE value="io.crm:common:1.0-SNAPSHOT" />
     <MESSAGE value="House Edit delete update" />
@@ -2017,7 +2015,8 @@
     <MESSAGE value="Config.json, Before Separating Mobicall" />
     <MESSAGE value="Mobicall Created" />
     <MESSAGE value="Image Upload Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image Upload Form" />
+    <MESSAGE value="HashParams.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashParams.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2529,8 +2528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6439394">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.7291667">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding />
         </state>
       </provider>
