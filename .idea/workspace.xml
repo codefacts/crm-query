@@ -5,37 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/BodyPanelDefault.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/BodyPanelDefaultBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlertBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/Panel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/PanelFooter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/PanelHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/body-panel-default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/model-alert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/panel-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/panel-header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/panel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/WebMainVerticle.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/WebMainVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/ImageUploadForm.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/ImageUploadForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebMainVerticle.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebMainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/br-checker-details.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/br-checker-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/br-checker-details.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/br-checker-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/br-checker-info-view.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/br-checker-info-view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/br-checker-info-view.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/br-checker-info-view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/call-details.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/call-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/call-details.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/call-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/dashboard.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/dashboard.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/file-upload.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/file-upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/image-upload-form.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/image-upload-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/page.html" afterPath="$PROJECT_DIR$/../crm-web/target/classes/templates/en_US/page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
@@ -79,12 +50,42 @@
         <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlert.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#863#864#0" expanded="true" />
                 <element signature="e#923#924#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashParams.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6439394">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.730769">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RowTemplateBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RowTemplateBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/RowTemplateBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12878788">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
@@ -142,7 +143,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-12.423077">
               <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
+              <folding>
+                <marker date="1444741591175" expanded="true" signature="115:757" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="162:750" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="198:739" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="237:492" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="330:402" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="336:393" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="529:571" placeholder="..." />
+                <marker date="1444741591175" expanded="true" signature="610:724" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/CsvParseError.java" />
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/parser/CsvParser.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/parsers/ParseResult.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/converters.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/DateConverters.java" />
@@ -230,12 +238,14 @@
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/AlertModel.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModelAlert.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/model-alert.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlert.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/WebMainVerticle.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlertBuilder.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/router.js" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" />
       </list>
     </option>
   </component>
@@ -1628,12 +1638,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00013" summary="Added Touples">
-      <created>1440946529503</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1440946529503</updated>
-    </task>
     <task id="LOCAL-00014" summary="Added Touples">
       <created>1440999626350</created>
       <option name="number" value="00014" />
@@ -1922,7 +1926,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444727722190</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Image Upload Form">
+      <created>1444742365059</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1444742365060</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1939,7 +1949,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1378" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1952,7 +1962,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46524063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976827" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30305344" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30305344" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5015267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2059,14 +2069,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/ApiEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/ConsumerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2334,8 +2336,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="false" />
+            <element signature="e#262#263#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2361,8 +2363,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2372,8 +2374,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2383,7 +2385,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2409,9 +2411,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1453#1454#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2432,27 +2434,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.730769">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/model-alert.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1444741591175" expanded="true" signature="115:757" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="162:750" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="198:739" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="237:492" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="330:402" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="336:393" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="529:571" placeholder="..." />
+            <marker date="1444741591175" expanded="true" signature="610:724" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2480,15 +2475,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlert.java">
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/BodyPanelDefault.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/RowTemplateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2500,18 +2499,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/BodyPanelDefault.java">
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/bootstrap/ModalAlert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/RowTemplateBuilder.java">
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12878788">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state vertical-scroll-proportion="-15.730769">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6439394">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding />
         </state>
       </provider>
