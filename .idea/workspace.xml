@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/core-1.0-SNAPSHOT-fat.jar" afterPath="$PROJECT_DIR$/../crm-core/target/core-1.0-SNAPSHOT-fat.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/core-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../crm-core/target/core-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/query-1.0-SNAPSHOT-fat.jar" afterPath="$PROJECT_DIR$/target/query-1.0-SNAPSHOT-fat.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../schema-validation/target/schema-validation-1.0-SNAPSHOT-fat.jar" afterPath="$PROJECT_DIR$/../schema-validation/target/schema-validation-1.0-SNAPSHOT-fat.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../schema-validation/target/schema-validation-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../schema-validation/target/schema-validation-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../crm-web/target/web-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/CompleteHandler.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/CompleteHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/DbService.java" afterPath="$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/DbService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ErrorHandler.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/ExceptionUtil.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/ExceptionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FiltersPanelTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FiltersPanelTemplateBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FormTemplateBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/MainVerticle.java" afterPath="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationTemplateBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/pagination/PaginationTemplateBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/AllModuleStarterVerticle.class" afterPath="$PROJECT_DIR$/../vaadincrm/target/classes/vaadincrm/AllModuleStarterVerticle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/SuccessHandler.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/SuccessHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableHeaderBuilder.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/table/TableHeaderBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/TaskCoordinator.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/TaskCoordinator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/TaskCoordinatorBuilder.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/TaskCoordinatorBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ThenHandler.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ThenHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/util/VaadinUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/service/ValidatorService.java" afterPath="$PROJECT_DIR$/../schema-validation/src/main/java/io/crm/schema/validation/service/ValidatorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/core.iml" afterPath="$PROJECT_DIR$/../crm-core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../crm-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/../crm-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../schema-validation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../schema-validation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\crm-common\src\main\java\io\crm\intfs\Callable.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/CallableUnchecked.java" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\crm-common\src\main\java\io\crm\intfs\ConsumerInterface.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/ConsumerUnchecked.java" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\crm-common\src\main\java\io\crm\intfs\Runnable.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/RunnableUnchecked.java" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +46,20 @@
     <favorites_list name="crm-query" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Promises.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8712121">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/FileUploadTemplate.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates/en_US/file-upload.html" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/model/FileUploadHistory.java" />
@@ -146,7 +130,6 @@
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Defer.java" />
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseAlreadyComplete.java" />
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java" />
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java" />
         <option value="$PROJECT_DIR$/../crm-core/pom.xml" />
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/Callable.java" />
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/CallableUnchecked.java" />
@@ -154,6 +137,8 @@
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/ConsumerUnchecked.java" />
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/Runnable.java" />
         <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/intfs/RunnableUnchecked.java" />
+        <option value="$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseTest.java" />
+        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java" />
       </list>
     </option>
   </component>
@@ -390,6 +375,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -431,33 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,61 +469,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -982,12 +889,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00028" summary="Campaign Tree Validation">
-      <created>1441807362285</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1441807362286</updated>
-    </task>
     <task id="LOCAL-00029" summary="Json-Schema-validation and Move model package to common">
       <created>1441886684618</created>
       <option name="number" value="00029" />
@@ -1276,7 +1177,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445018360954</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="ConsumerInterface to ConsumerUnchecked">
+      <created>1445021138372</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1445021138372</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1293,17 +1200,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1378" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64705884" sideWeight="0.5152672" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84670234" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46524063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976827" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2648855" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
@@ -1311,13 +1216,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.306231" sideWeight="0.50827426" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54901963" sideWeight="0.48473284" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54901963" sideWeight="0.48473284" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46524063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6684492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1336,7 +1243,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Added Campaign" />
     <MESSAGE value="CampaignConfigureTree" />
     <MESSAGE value="All Module Starter Verticle" />
     <MESSAGE value="Campaign Configure Tree" />
@@ -1361,7 +1267,8 @@
     <MESSAGE value="Promise" />
     <MESSAGE value="Promise Complete" />
     <MESSAGE value="Promise Complete and Tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="Promise Complete and Tested" />
+    <MESSAGE value="ConsumerInterface to ConsumerUnchecked" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConsumerInterface to ConsumerUnchecked" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1425,14 +1332,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03219697">
-          <caret line="218" column="43" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1451,10 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#3556#3557#0" expanded="false" />
-            <element signature="e#3584#3585#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1470,9 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1480,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,7 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1541,7 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,7 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,7 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,7 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,7 +1515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,7 +1522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,7 +1536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16098484">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1670,7 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1686,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1702,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1710,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22537878">
           <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22537878">
           <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16098484">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1742,10 +1615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1753,7 +1622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22537878">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1761,7 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06439394">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1790,23 +1657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crm-core/src/main/java/io/crm/core/service/CampaignService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1814,7 +1668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7405303">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1822,7 +1675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1830,7 +1682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1838,7 +1689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1846,7 +1696,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25757575">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93560606">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8712121">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
