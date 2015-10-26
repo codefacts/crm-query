@@ -63,7 +63,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="mobicall" />
+        <module name="merchandiser-supervisor" />
         <module name="web" />
       </profile>
       <profile default="false" name="Annotation profile for core" enabled="true">
@@ -88,6 +88,7 @@
       <module name="core" target="1.8" />
       <module name="crm-query" target="1.8" />
       <module name="crm-web" target="1.8" />
+      <module name="merchandiser-supervisor" target="1.8" />
       <module name="mobicall" target="1.8" />
       <module name="schema-validation" target="1.8" />
       <module name="vaadin_client" target="1.8" />

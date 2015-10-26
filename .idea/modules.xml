@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../crm-common/common.iml" filepath="$PROJECT_DIR$/../crm-common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crm-core/core.iml" filepath="$PROJECT_DIR$/../crm-core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm-query.iml" filepath="$PROJECT_DIR$/crm-query.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../mobicall/mobicall.iml" filepath="$PROJECT_DIR$/../mobicall/mobicall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../merchandiser-supervisor/merchandiser-supervisor.iml" filepath="$PROJECT_DIR$/../merchandiser-supervisor/merchandiser-supervisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/../schema-validation/schema-validation.iml" filepath="$PROJECT_DIR$/../schema-validation/schema-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" filepath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crm-web/web.iml" filepath="$PROJECT_DIR$/../crm-web/web.iml" />

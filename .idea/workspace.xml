@@ -5,43 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\src\main\java\io\crm\web\service\callreview\Services.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/ApiService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/ApiService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/BrCheckerDetailsService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/BrCheckerDetailsService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsSummaryViewJS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsTemplateJS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/ReactDOMBinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/WorkDayDetailsJS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details-summary-view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/reac-dom-binder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/work-day-details.js" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__io_crm_common_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-query\.idea\libraries\Maven__io_crm_common_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\src\main\java\io\crm\web\template\page\CallDetailsTemplate.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\src\main\java\io\crm\web\template\page\CallDetailsTemplateBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\crm-web\src\main\resources\templates-s\en_US\call-details.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/CallController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/CallController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/parsers/CsvParser.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/parsers/CsvParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplateBuilder.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/DataPanelTemplateBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/input/DateRangeTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/input/DateRangeTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadHistoryService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadHistoryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadService.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FileUploadStatusTable.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FileUploadStatusTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FileUploadTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FileUploadTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/form/FormRowBuilder.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/form/FormRowBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FormTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/FormTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/GoogleMapController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/GoogleMapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/HomeController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/ImageController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/ImageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/ImageUploadController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/ImageUploadController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/ImageUploadForm.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/ImageUploadForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/LoginController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/MainVerticle.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/MainVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/Page.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Pagination.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Pagination.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/pagination/PaginationTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/pagination/PaginationTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/pagination/PaginationTemplateBuilder.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/pagination/PaginationTemplateBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/input/RangeTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/input/RangeTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/input/SelectTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/input/SelectTemplate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableBody.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableBody.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableFooter.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableFooter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableHeader.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableRow.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/table/TableRow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/WebUtils.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/WebUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/DateRange.js" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/DateRange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/Range.js" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/Range.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/common_crm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/common_crm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/merchandiser-supervisor.iml" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/merchandiser-supervisor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/pom.xml" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" afterPath="$PROJECT_DIR$/../vaadincrm/vaadin_client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,6 +56,7 @@
     <ignored path="$PROJECT_DIR$/../crm-common/target/" />
     <ignored path="$PROJECT_DIR$/mobicall/target/" />
     <ignored path="$PROJECT_DIR$/../mobicall/target/" />
+    <ignored path="$PROJECT_DIR$/../merchandiser-supervisor/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +82,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainVerticle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35416666">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16098484">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainVerticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="167" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work-day-details.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/work-day-details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="call-details.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="346" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallDetailsSummaryViewJS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsSummaryViewJS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallDetailsTemplateJS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsTemplateJS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkDayDetailsJS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/WorkDayDetailsJS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -109,7 +198,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../crm-web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../merchandiser-supervisor" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -125,37 +214,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/css/bootstrap/ButtonClasses.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/Controllers.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/text-input.html" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Scripts.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/PageBuilder.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/Page.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Script.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/react/AjaxSelect.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/page.html" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/App.java" />
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerJson.java" />
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseCallbackAlreadySet.java" />
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/ajax-select.html" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/react-components.js" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/model/BrCheckerData.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/repository/BrCheckerRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/Services.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/sona.json" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/entity/BrCheckerData.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerInfoView.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/BrCheckerDetailsFilter.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/br-checker-details-filter.js" />
         <option value="$PROJECT_DIR$/../mobicall/src/main/java/com/imslbd/web/controller/BrCheckerController.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/DataPanelTemplateBuilder.java" />
-        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerJsonController.java" />
@@ -176,6 +243,28 @@
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Page.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/repository/BrCheckerDataRepository.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/call-details.html" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/CallDetailsTemplateBuilder.java" />
+        <option value="$PROJECT_DIR$/../mobicall/src/main/java/com/imslbd/web/controller/CallController.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/CallDetailsTemplateJS.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/CallDetailsTemplate.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/DateRange.js" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/Range.js" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details.html" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/WorkDayDetails.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/ReactDOMBinder.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details-summary-view.js" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsTemplateJS.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/WorkDayDetailsJS.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details.js" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsSummaryViewJS.java" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/work-day-details.js" />
+        <option value="$PROJECT_DIR$/../merchandiser-supervisor/pom.xml" />
+        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/App.java" />
+        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java" />
       </list>
     </option>
   </component>
@@ -231,24 +320,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="spring-boot" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="web" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -329,6 +400,24 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="merchandiser-supervisor" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="merchandiser-supervisor" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -413,7 +502,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -428,7 +516,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
+              <option name="myItemId" value="merchandiser-supervisor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +526,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
+              <option name="myItemId" value="merchandiser-supervisor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -452,29 +540,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
+              <option name="myItemId" value="merchandiser-supervisor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -485,10 +551,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -496,7 +558,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
+              <option name="myItemId" value="merchandiser-supervisor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -512,7 +574,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
+              <option name="myItemId" value="merchandiser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,48 +585,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="crm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="callreview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,11 +592,12 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="D:/NetbeansProjects/BATB-CRM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../merchandiser-supervisor" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="80" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="97" />
@@ -599,7 +620,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30574712" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -631,6 +652,8 @@
       <recent name="io.crm.query.model.Query" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\crm-web\src\main\resources\templates-s\en_US" />
+      <recent name="D:\IdeaProjects\crm-web\src\main\resources\templates-s\en_US\pages" />
       <recent name="D:\IdeaProjects\crm-web\src\main" />
       <recent name="D:\IdeaProjects\crm-web\src\main\resources\templates\en_US" />
       <recent name="D:\IdeaProjects\" />
@@ -995,12 +1018,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00038" summary="Json-Schema-validation">
-      <created>1442738638670</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1442738638670</updated>
-    </task>
     <task id="LOCAL-00039" summary="Json-Schema-validation">
       <created>1442739456861</created>
       <option name="number" value="00039" />
@@ -1289,7 +1306,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445842182924</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Starting Mobicall">
+      <created>1445842583477</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1445842583477</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1306,31 +1329,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64705884" sideWeight="0.5152672" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826748" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84670234" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5543672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976827" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31610942" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31610942" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5015267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.306231" sideWeight="0.50827426" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62566847" sideWeight="0.48473284" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37967914" sideWeight="0.48473284" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41889483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5543672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6684492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1377,7 +1400,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="TaskCoordinator.catchOnException" />
     <MESSAGE value="CAMPAIGN TREE" />
     <MESSAGE value="Final class" />
     <MESSAGE value="Campaign Tree&#10;" />
@@ -1402,7 +1424,8 @@
     <MESSAGE value="Promises.All" />
     <MESSAGE value="Promise optimization" />
     <MESSAGE value="Br Checker Details Filter Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Br Checker Details Filter Form" />
+    <MESSAGE value="Starting Mobicall" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting Mobicall" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1463,7 +1486,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="416" />
+      <option name="time" value="419" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1472,115 +1495,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/static/js/browser.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/static/js/react-dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/ajax-select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6613546">
-          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/model/FileUploads.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar!/org/springframework/core/ResolvableType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06048387">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.2.7.RELEASE/spring-boot-1.2.7.RELEASE.jar!/org/springframework/boot/context/event/EventPublishingRunListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0625">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.2.7.RELEASE/spring-boot-1.2.7.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.40625">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.0.RELEASE/spring-context-4.2.0.RELEASE-sources.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/sona.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/ST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4051724">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.9.4.RELEASE/spring-data-commons-1.9.4.RELEASE.jar!/org/springframework/data/domain/PageImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15524194">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.0.28.Final/netty-common-4.0.28.Final.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.085">
-          <caret line="324" column="0" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerDetailsTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1606,7 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1617,33 +1530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/br-checker-details-filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mobicall/src/main/java/com/imslbd/web/controller/BrCheckerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="161" column="65" selection-start-line="161" selection-start-column="65" selection-end-line="161" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.95454544">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1658,7 +1548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71022725">
           <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1673,13 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16287878">
           <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-          <folding>
-            <element signature="e#1374#1386#0" expanded="false" />
-            <element signature="e#2228#2240#0" expanded="false" />
-            <element signature="e#3091#3103#0" expanded="false" />
-            <element signature="e#3960#3972#0" expanded="false" />
-            <element signature="e#4834#4846#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1687,7 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42992425">
           <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1698,18 +1579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/BrCheckerDetailsFilterJS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30113637">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/renderer/BrDetailsRendererBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5814394">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1717,7 +1590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1725,11 +1597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1751,7 +1618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6136364">
           <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1759,7 +1625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13068181">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1767,7 +1632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5473485">
           <caret line="128" column="87" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,7 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45075756">
           <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1783,7 +1646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16098484">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1791,7 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19318181">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,7 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9482072">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1807,7 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06439394">
           <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1815,9 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1825,7 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1833,9 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1843,42 +1695,185 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6458333">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.033864543">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35416666">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mobicall/src/main/java/com/imslbd/web/controller/CallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/br-checker-details-filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="156" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/DateRange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/Range.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/reac-dom-binder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13545817">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/ReactDOMBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64761907">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details-summary-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/BrCheckerDetailsFilterJS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1356#1357#0" expanded="false" />
+            <element signature="e#1435#1436#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsTemplateJS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/WorkDayDetailsJS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/call-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="346" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsSummaryViewJS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/templates-s/en_US/pages/work-day-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="167" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16098484">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1914,7 +1909,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30574712" />
               </list>
             </option>
           </splitter-proportions>
@@ -1926,7 +1921,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30574712" />
               </list>
             </option>
           </splitter-proportions>
@@ -1934,7 +1929,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mobicall</last-edited>
+          <last-edited>merchandiser-supervisor</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1959,7 +1954,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: io.crm:common:1.0</last-edited>
+          <last-edited>common-crm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

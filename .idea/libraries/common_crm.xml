@@ -1,11 +1,7 @@
 <component name="libraryTable">
   <library name="common-crm">
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/../common-crm" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/../common-crm/src/main/java" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
