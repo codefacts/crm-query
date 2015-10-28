@@ -7,6 +7,16 @@
     <file url="file://$PROJECT_DIR$/../crm-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../crm-web/src/main/resources/table.sql" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/../merchandiser-supervisor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/META-INF" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/Area.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/ClusterType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/ExecutionFeedback.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/MC.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/McTrack.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/OutletType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/Region.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/Territory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/META-INF/persistence.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/../mobicall" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../schema-validation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../vaadincrm" charset="UTF-8" />
