@@ -7,7 +7,6 @@
     <file url="file://$PROJECT_DIR$/../crm-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../crm-web/src/main/resources/table.sql" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/../merchandiser-supervisor" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/META-INF" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/Area.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/ClusterType.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/ExecutionFeedback.java" charset="windows-1252" />
