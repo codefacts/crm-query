@@ -5,43 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/FileUploadHistory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/file_upload/FileUploadTmpt.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/JsRsp.java" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\merchandiser-supervisor\src\main\java\com\imslbd\merchandiser\template\page\FileUploadTmpt.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Converters.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Converters.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/MainVerticle.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/MainVerticle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerJsonController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerJsonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerJsonService.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerJsonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/ClusterType.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/ClusterType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/FileUploadController.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/FileUploadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/ImageUploadController.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/ImageUploadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTmpt.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/McTrack.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/McTrack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackFileUploadService.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackFileUploadService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackService.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyApp.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyMessageCodes.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyMessageCodes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/my_util/MyUtil.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/my_util/MyUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Promise.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Promise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseAllTest.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseAllTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseTest.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/test/PromiseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/Promises.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Touple2.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Touple2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/gv.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/gv.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/my-templates-s/en_US/pages/image-upload-template.html" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/my-templates-s/en_US/pages/image-upload-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackDetailsTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackDetailsTmpt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/Sidebar.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/Sidebar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MOVED" beforePath="D:\IdeaProjects\crm-web\src\main\java\io\crm\web\util\converters.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Converters.java" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\merchandiser-supervisor\src\main\java\com\imslbd\merchandiser\service\UploadMcTrackerImagesService.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackerImageUploadService.java" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\merchandiser-supervisor\src\main\resources\my-templates-s\en_US\pages\file-upload-template.html" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/my-templates-s/en_US/pages/file_upload/file-upload-template.html" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,11 +87,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="McTrackerImageUploadService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="McTrackerImageUploadService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackerImageUploadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13068181">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="McTrackController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Promise.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Promise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromiseImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38636363">
+              <caret line="265" column="42" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
+              <folding>
+                <element signature="e#1906#1907#0" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
+                <element signature="e#9851#9852#0" expanded="true" />
+                <element signature="e#9923#9924#0" expanded="true" />
+                <element signature="e#9971#9972#0" expanded="true" />
+                <element signature="e#10016#10017#0" expanded="true" />
+                <element signature="e#10062#10063#0" expanded="true" />
+                <element signature="e#10105#10106#0" expanded="true" />
+                <element signature="e#10141#10142#0" expanded="true" />
+                <element signature="e#10169#10170#0" expanded="true" />
+                <element signature="e#10214#10215#0" expanded="true" />
+                <element signature="e#10262#10263#0" expanded="true" />
+                <element signature="e#10308#10309#0" expanded="true" />
+                <element signature="e#10336#10337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ErrorHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyUris.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -136,14 +179,14 @@
       <list>
         <option value="Html5" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../merchandiser-supervisor" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../crm-common" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -159,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/ImageUploaderController.java" />
-        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUpload.java" />
-        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTemplate.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/public/css/main.css" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/templates-s/en_US/pages/dashboard.html" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/DashboardTmpt.java" />
@@ -171,12 +211,10 @@
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/templates-s/en_US/pages/page.html" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/templates-s/en_US/pages/image-upload-template.html" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/UploadMcTrackerImagesService.java" />
-        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/templates-s/en_US/pages/mc-track-details.html" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/pom.xml" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/config.json" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/Sidebar.java" />
-        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/FileUploaderController.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyEvents.java" />
@@ -210,6 +248,11 @@
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/file_upload/FileUploadTmpt.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTmpt.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackerImageUploadService.java" />
+        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java" />
+        <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java" />
+        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ErrorHandler2.java" />
+        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Promise.java" />
+        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java" />
       </list>
     </option>
   </component>
@@ -974,6 +1017,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="intfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="promise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="crm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1023,11 +1118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.crm.promise.intfs" />
       <recent name="io.crm.web.util" />
       <recent name="io.crm.promise" />
       <recent name="io.crm.web.template.page.renderer" />
       <recent name="io.crm.intfs" />
-      <recent name="io.crm.web.template.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\merchandiser-supervisor\src\main\resources" />
@@ -1813,7 +1908,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Json-Schema-validation" />
     <MESSAGE value="Web" />
     <MESSAGE value="JavascriptRedirect Fix" />
     <MESSAGE value="Table.sql" />
@@ -1838,7 +1932,8 @@
     <MESSAGE value="Redo Promises.all.onError is called after completing all promises. It is desirable" />
     <MESSAGE value="Undo again Promises.all.onError is called after completing all promises.&#10;Added Promises.allDone()" />
     <MESSAGE value="File Upload Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Upload Service" />
+    <MESSAGE value="File Upload And Image Upload Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Upload And Image Upload Complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1902,50 +1997,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/parsers/CsvParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/OutletImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14204545">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13545817">
-          <caret line="12" column="86" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/model/Territory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#932#933#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Converters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2083,22 +2134,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="311" column="39" selection-start-line="311" selection-start-column="39" selection-end-line="311" selection-end-column="39" />
           <folding>
-            <element signature="e#10713#10714#0" expanded="true" />
-            <element signature="e#10753#10754#0" expanded="true" />
-            <element signature="e#10923#10924#0" expanded="true" />
-            <element signature="e#10952#10953#0" expanded="true" />
-            <element signature="e#10997#10998#0" expanded="true" />
-            <element signature="e#11026#11027#0" expanded="true" />
-            <element signature="e#11072#11073#0" expanded="true" />
-            <element signature="e#11101#11102#0" expanded="true" />
-            <element signature="e#11145#11146#0" expanded="true" />
-            <element signature="e#11174#11175#0" expanded="true" />
-            <element signature="e#11219#11220#0" expanded="true" />
-            <element signature="e#11248#11249#0" expanded="true" />
-            <element signature="e#11294#11295#0" expanded="true" />
-            <element signature="e#11323#11324#0" expanded="true" />
-            <element signature="e#11370#11371#0" expanded="true" />
-            <element signature="e#11399#11400#0" expanded="true" />
+            <element signature="e#10713#10714#0" expanded="false" />
+            <element signature="e#10753#10754#0" expanded="false" />
+            <element signature="e#10923#10924#0" expanded="false" />
+            <element signature="e#10952#10953#0" expanded="false" />
+            <element signature="e#10997#10998#0" expanded="false" />
+            <element signature="e#11026#11027#0" expanded="false" />
+            <element signature="e#11072#11073#0" expanded="false" />
+            <element signature="e#11101#11102#0" expanded="false" />
+            <element signature="e#11145#11146#0" expanded="false" />
+            <element signature="e#11174#11175#0" expanded="false" />
+            <element signature="e#11219#11220#0" expanded="false" />
+            <element signature="e#11248#11249#0" expanded="false" />
+            <element signature="e#11294#11295#0" expanded="false" />
+            <element signature="e#11323#11324#0" expanded="false" />
+            <element signature="e#11370#11371#0" expanded="false" />
+            <element signature="e#11399#11400#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2108,9 +2159,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="81" selection-start-line="65" selection-start-column="81" selection-end-line="65" selection-end-column="81" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1677#1689#0" expanded="true" />
-            <element signature="e#4119#4137#0" expanded="true" />
+            <element signature="e#1677#1689#0" expanded="false" />
+            <element signature="e#4119#4137#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2119,14 +2169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2161,8 +2203,8 @@
           <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1544#1545#0" expanded="false" />
-            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1425#1426#0" expanded="false" />
+            <element signature="e#1499#1500#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2254,9 +2296,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2293,14 +2335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTmpt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28977272">
@@ -2325,7 +2359,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <element signature="e#2806#2818#0" expanded="true" />
+            <element signature="e#2806#2818#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2361,9 +2395,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackerImageUploadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13068181">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38636363">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Promise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/PromiseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38636363">
+          <caret line="265" column="42" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
+          <folding>
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#9851#9852#0" expanded="true" />
+            <element signature="e#9923#9924#0" expanded="true" />
+            <element signature="e#9971#9972#0" expanded="true" />
+            <element signature="e#10016#10017#0" expanded="true" />
+            <element signature="e#10062#10063#0" expanded="true" />
+            <element signature="e#10105#10106#0" expanded="true" />
+            <element signature="e#10141#10142#0" expanded="true" />
+            <element signature="e#10169#10170#0" expanded="true" />
+            <element signature="e#10214#10215#0" expanded="true" />
+            <element signature="e#10262#10263#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
+            <element signature="e#10336#10337#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
