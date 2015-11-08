@@ -1253,12 +1253,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00051" summary="JavascriptRedirect Fix">
-      <created>1443847659717</created>
-      <option name="number" value="00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1443847659719</updated>
-    </task>
     <task id="LOCAL-00052" summary="Table.sql">
       <created>1443848825784</created>
       <option name="number" value="00052" />
@@ -1547,7 +1541,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446981712031</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="MC Project Complete">
+      <created>1446981767462</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1446981767462</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
