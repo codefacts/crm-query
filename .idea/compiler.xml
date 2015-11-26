@@ -63,7 +63,9 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="call_center" />
         <module name="merchandiser-supervisor" />
+        <module name="shopy" />
         <module name="web" />
       </profile>
       <profile default="false" name="Annotation profile for core" enabled="true">
@@ -82,6 +84,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="br_checker" target="1.5" />
+      <module name="call_center" target="1.8" />
       <module name="client" target="1.8" />
       <module name="codefacts" target="1.8" />
       <module name="common" target="1.8" />
@@ -91,6 +95,7 @@
       <module name="merchandiser-supervisor" target="1.8" />
       <module name="mobicall" target="1.8" />
       <module name="schema-validation" target="1.8" />
+      <module name="shopy" target="1.8" />
       <module name="vaadin_client" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
