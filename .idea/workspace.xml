@@ -5,129 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/ConditionalStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/FinishHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/MapToStreamAndDecideHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/MapToStreamHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Stream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_190.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_pre10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_jdbc_client_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_rx_java_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_sql_common_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/ReactJSController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/SearchController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/repo/CategoryRepo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/repo/CategoryUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/SearchService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackDetailsFormJS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/my-templates-s/en_US/pages/mc-track-details-from.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/test/java/Main.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/MainVerticle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/BrCheckerJsonController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/CallController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/EventPublisherController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/FileUploadController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/HomeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/ImageController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/ImageUploadController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/TestController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/UploadResultBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/excpt/ApiServiceException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/ApiService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerDetailsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/BrCheckerJsonService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadHistoryService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/FileUploadService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/entity/BrCheckerData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/model/BrCheckerModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/model/FileUploads.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/service/callreview/repository/BrCheckerDataRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerDetailsFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerDetailsTemplate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerDetailsTemplateBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerExportSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/BrCheckerInfoView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/DashboardTemplate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/DashboardTemplateBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/EventPublisherForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/BrCheckerDetailsFilterJS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsSummaryViewJS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/CallDetailsTemplateJS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/js/WorkDayDetailsJS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/renderer/BrDetailsRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/renderer/BrDetailsRendererBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/MainVerticle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/BrCheckerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/CallController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/EventPublisherController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController$HandlerException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController$StatusCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/FileUploadController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/ImageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/ImageUploadController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/UploadResultBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/excpt/ApiServiceException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/ApiService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/BrCheckerDetailsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadHistoryService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/FileUploadService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/model/BrCheckerModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/model/FileUploads$Statuses.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/service/callreview/model/FileUploads.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/GoogleMapTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/page/BrCheckerExportSettings.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/App.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/Uris.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/GoogleMapController.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/controller/GoogleMapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/Page.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/template/SidebarTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Pagination.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/Pagination.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/WebUtils.class" afterPath="$PROJECT_DIR$/../crm-web/target/classes/io/crm/web/util/WebUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/test-classes/TestWater.class" afterPath="$PROJECT_DIR$/../crm-web/target/test-classes/TestWater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/App.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/AuthController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/AuthController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/GoogleMapController.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/GoogleMapController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Pagination.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/test/java/TestWater.java" afterPath="$PROJECT_DIR$/../crm-web/src/test/java/TestWater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MainVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyEvents.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyEvents.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/MyUris.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/FileUploadController.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/FileUploadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/ImageUploadController.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/ImageUploadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/controller/McTrackController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/gv.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/gv.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackFileUploadService.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackFileUploadService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackService.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/service/McTrackService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/Sidebar.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/Sidebar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/DashboardTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/DashboardTmpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/GoogleMapTemplate.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/GoogleMapTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/ImageUploadTmpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackDetailsTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackDetailsTmpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackViewTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/McTrackViewTmpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/PageTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/PageTmpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/file_upload/FileUploadTmpt.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/template/page/file_upload/FileUploadTmpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/config.json" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/my-templates-s/en_US/pages/mc-track-details.html" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/resources/my-templates-s/en_US/pages/mc-track-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java" afterPath="$PROJECT_DIR$/../vaadincrm/src/main/java/vaadincrm/AllModuleStarterVerticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/GoogleMapTemplate.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/page/GoogleMapTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/my_util/MyConverters.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/util/MyValidators.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/my_util/MyUtil.java" afterPath="$PROJECT_DIR$/../merchandiser-supervisor/src/main/java/com/imslbd/merchandiser/util/MyUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/my-functions.js" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/my-functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/public/js/HashParams.js" afterPath="$PROJECT_DIR$/../crm-web/target/classes/public/js/HashParams.js" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,7 +64,28 @@
     <favorites_list name="crm-query" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shopy/src/main/resources/my-public/js/route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashParams.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17153996">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,8 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/FinishHandler.java" />
-        <option value="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/promise/intfs/Stream.java" />
         <option value="$PROJECT_DIR$/../call_center/src/test/java/Main.java" />
         <option value="$PROJECT_DIR$/../merchandiser-supervisor/src/test/java/Main.java" />
         <option value="$PROJECT_DIR$/../shopy/src/main/resources/my-public/css/app.css" />
@@ -263,6 +163,8 @@
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/controller/ReactJSController.java" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/Uris.java" />
         <option value="$PROJECT_DIR$/../shopy/src/main/resources/my-templates-s/en_US/pages/page.html" />
+        <option value="$PROJECT_DIR$/../shopy/src/main/resources/my-public/js/route.js" />
+        <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/my-functions.js" />
         <option value="$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js" />
       </list>
     </option>
@@ -637,6 +539,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1361,12 +1289,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00060" summary="Mobicall Created">
-      <created>1444671242524</created>
-      <option name="number" value="00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1444671242524</updated>
-    </task>
     <task id="LOCAL-00061" summary="Image Upload Form">
       <created>1444727722190</created>
       <option name="number" value="00061" />
@@ -1655,7 +1577,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447078054957</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="ConditionalPromise Ready For Use">
+      <created>1448523658799</created>
+      <option name="number" value="00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1448523658800</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1672,7 +1600,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32783884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1684,7 +1612,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7307692" sideWeight="0.50835866" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32088414" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32088414" sideWeight="0.49172577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20980091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1846,27 +1774,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/Converters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30019492">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/template/SidebarTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04288499">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shopy/src/main/java/codefacts/shopy/MyMessageCodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30019492">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../shopy/src/main/java/codefacts/shopy/model/Empoyee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2117,13 +2024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shopy/src/main/resources/my-public/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../shopy/src/main/resources/my-templates-s/en_US/site-container.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.045643155">
@@ -2191,21 +2091,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21442495">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/my-functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shopy/src/main/resources/my-public/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../shopy/src/main/resources/my-templates-s/en_US/pages/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56639004">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.10165975">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/my-classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6432749">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shopy/src/main/resources/my-public/js/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../crm-web/src/main/resources/public/js/HashParams.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39961013">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.17153996">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
