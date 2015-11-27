@@ -4,10 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" afterPath="$PROJECT_DIR$/../crm-common/src/main/java/io/crm/util/Util.java" />
+    <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="HashParams reload and goto">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/target/classes/public/js/HashParams.js" afterPath="$PROJECT_DIR$/../crm-web/target/classes/public/js/HashParams.js" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +79,8 @@
       <file leaf-file-name="CategoryService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../shopy/src/main/java/codefacts/shopy/service/CategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2916667">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.45833334">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1500,12 +1500,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00064" summary="HashParams.js">
-      <created>1444758310410</created>
-      <option name="number" value="00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1444758310410</updated>
-    </task>
     <task id="LOCAL-00065" summary="HashParams.js">
       <created>1444797468206</created>
       <option name="number" value="00065" />
@@ -1794,7 +1788,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448536213445</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="HashParams reload and goto">
+      <created>1448608201872</created>
+      <option name="number" value="00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1448608201872</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -2460,8 +2460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../shopy/src/main/java/codefacts/shopy/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2916667">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.45833334">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
