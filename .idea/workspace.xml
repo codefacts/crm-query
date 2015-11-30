@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd0081e7-794b-4a1c-9c2b-66a19021f2d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" afterPath="$PROJECT_DIR$/../crm-web/src/main/java/io/crm/web/util/WebUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm-web/src/main/resources/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../crm-web/src/main/resources/.idea/workspace.xml" />
     </list>
     <ignored path="crm-query.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1338,12 +1336,6 @@
       <workItem from="1440151173281" duration="593000" />
       <workItem from="1443007010892" duration="4000" />
     </task>
-    <task id="LOCAL-00071" summary="CheckFileAlreadyUploadedSuccessfully">
-      <created>1444920441363</created>
-      <option name="number" value="00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1444920441363</updated>
-    </task>
     <task id="LOCAL-00072" summary="CheckFileAlreadyUploadedSuccessfully">
       <created>1444967767101</created>
       <option name="number" value="00072" />
@@ -1632,7 +1624,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448823627482</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Product Single">
+      <created>1448888448028</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1448888448029</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1722,7 +1720,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="CheckFileAlreadyUploadedSuccessfully" />
     <MESSAGE value="Promise" />
     <MESSAGE value="Promise Complete" />
     <MESSAGE value="Promise Complete and Tested" />
@@ -1747,7 +1744,8 @@
     <MESSAGE value="HashParams reload and goto" />
     <MESSAGE value="CategoryController" />
     <MESSAGE value="Variation Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variation Add" />
+    <MESSAGE value="Product Single" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Single" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
